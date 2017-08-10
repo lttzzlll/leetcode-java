@@ -1,0 +1,1 @@
+简单的字符串转换为整数 [这里有很详细的描述](http://bookshadow.com/weblog/2016/01/22/leetcode-string-to-integer-atoi/)
