@@ -6,8 +6,9 @@ leetcode with java
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/#/description) | [Solution](src/twoSum) | O(n) | O(n) | Map | 
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description) | [Solution](src/AddTwoNumbers) | -- | -- | LinkedList |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/#/discuss)| [Solution](src/LongestSubstringWithoutRepeatingCharacters) | O(n) | O(n) | Map |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/#/description) | [Solution](src/MedianofTwoSortedArrays) | O(log(m + n)) | O(m + n) | Binary Search | 
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/#/description) | [Solution](src/MedianofTwoSortedArrays) | O(log(m + n)) | O(m + n) | Binary Search |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Solution](src/ZigZagConversion) | O(n) | O(n) | Observation |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](src/StringToInteger) | -- | -- | Practice |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/#/description) | [Solution](src/PalindromeNumber) | O(n) | O(n) | number and String|
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| -- | -- | LinkedList | 
 | 67| [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | -- | -- | Int->String | 
