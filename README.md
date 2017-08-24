@@ -12,6 +12,7 @@ leetcode with java
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/#/description) | [Solution](src/PalindromeNumber) | O(n) | O(n) | number and String|
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [Solution](src/RegularExpressionMatching) | O(n)? | O(n) | Recursive, Dynamic Programming |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [Solution](src/ContainerWithMostWater) | O(n) | O(1) | proof |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Solution](/src/IntegerToRoman) | O(n) | O(1) | Table[Mapping] |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Solution](/src/RomanToInteger) | O(n)| O(1) | String -> Integer |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| -- | -- | LinkedList |
