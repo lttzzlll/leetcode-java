@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sqrt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sqrt/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="leetcode-java.iws" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.6501035">
+              <caret line="20" column="147" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
               <folding />
             </state>
           </provider>
@@ -48,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sqrt/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39751554">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
               <folding />
             </state>
@@ -166,9 +163,9 @@
         <option value="$PROJECT_DIR$/src/IntegerToRoman/README.md" />
         <option value="$PROJECT_DIR$/src/IntegerToEnglishWords/Solution.java" />
         <option value="$PROJECT_DIR$/src/IntegerToEnglishWords/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Sqrt/Solution.java" />
         <option value="$PROJECT_DIR$/src/Sqrt/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -882,12 +879,12 @@
       <created>1502710256206</created>
       <option name="number" value="Default" />
       <updated>1502710256206</updated>
-      <workItem from="1502710257570" duration="46616000" />
+      <workItem from="1502710257570" duration="46739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46616000" />
+    <option name="totallyTimeSpent" value="46739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="301" y="23" width="1073" height="873" extended-state="0" />
@@ -1052,12 +1049,12 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1059" column="10" selection-start-line="1059" selection-start-column="10" selection-end-line="1059" selection-end-column="10" />
           <folding>
-            <marker date="1503675115000" expanded="true" signature="59:68620" placeholder="..." />
-            <marker date="1503675115000" expanded="true" signature="98:129" placeholder="..." />
-            <marker date="1503675115000" expanded="true" signature="68546:68563" placeholder="..." />
-            <marker date="1503675115000" expanded="true" signature="68546:68581" placeholder="..." />
-            <marker date="1503675115000" expanded="true" signature="68546:68594" placeholder="..." />
-            <marker date="1503675115000" expanded="true" signature="68546:68609" placeholder="..." />
+            <marker date="1503675240000" expanded="true" signature="59:68322" placeholder="..." />
+            <marker date="1503675240000" expanded="true" signature="98:129" placeholder="..." />
+            <marker date="1503675240000" expanded="true" signature="68248:68265" placeholder="..." />
+            <marker date="1503675240000" expanded="true" signature="68248:68283" placeholder="..." />
+            <marker date="1503675240000" expanded="true" signature="68248:68296" placeholder="..." />
+            <marker date="1503675240000" expanded="true" signature="68248:68311" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1234,18 +1231,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/Sqrt/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sqrt/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39751554">
-          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.6501035">
+          <caret line="20" column="147" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
           <folding />
         </state>
       </provider>
