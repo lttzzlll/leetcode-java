@@ -16,7 +16,7 @@ leetcode with java
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Solution](/src/RomanToInteger) | O(n)| O(1) | String -> Integer |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
-| 67| [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | --- | --- | Int->String |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | --- | --- | Int->String |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
 | 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort | 
