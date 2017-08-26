@@ -29,3 +29,4 @@ leetcode with java
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue|
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/#/description) | [Solution](src/AddTwoNumbersII) | --- | --- | LinkedList |
+| 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/ ) | [Solution](/src/SumofSquareNumbers)| --- | --- | Math |
