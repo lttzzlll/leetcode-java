@@ -1,0 +1,2 @@
+### [Pow](https://leetcode.com/problems/powx-n/description/)
+> 幂指运算,加快运算的速度,参考这篇文章[http://blog.csdn.net/fengbingyang/article/details/12236121](http://blog.csdn.net/fengbingyang/article/details/12236121)
