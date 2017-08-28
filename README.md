@@ -16,6 +16,7 @@ leetcode with java
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Solution](/src/RomanToInteger) | O(n)| O(1) | String -> Integer |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Solution](/src/LongestCommonPrefix) | --- | --- | String |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Solution](/src/ValidParentheses) | --- | --- | Stack |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/discuss/) | [Solution](/src/MergeTwoSortedLists) | O(n) | O(1) | LinkedList, Recursion|
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
