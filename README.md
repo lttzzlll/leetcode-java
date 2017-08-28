@@ -14,6 +14,7 @@ leetcode with java
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [Solution](src/ContainerWithMostWater) | O(n) | O(1) | proof |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Solution](/src/IntegerToRoman) | O(n) | O(1) | Table[Mapping] |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Solution](/src/RomanToInteger) | O(n)| O(1) | String -> Integer |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Solution](https://leetcode.com/problems/longest-common-prefix/description/) | --- | --- | String |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
