@@ -838,12 +838,12 @@
       <created>1502710256206</created>
       <option name="number" value="Default" />
       <updated>1502710256206</updated>
-      <workItem from="1502710257570" duration="60056000" />
+      <workItem from="1502710257570" duration="60091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60056000" />
+    <option name="totallyTimeSpent" value="60091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="291" y="23" width="1008" height="846" extended-state="0" />
@@ -1020,12 +1020,12 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1059" column="10" selection-start-line="1059" selection-start-column="10" selection-end-line="1059" selection-end-column="10" />
           <folding>
-            <marker date="1503919976000" expanded="true" signature="59:72638" placeholder="..." />
-            <marker date="1503919976000" expanded="true" signature="98:129" placeholder="..." />
-            <marker date="1503919976000" expanded="true" signature="72564:72581" placeholder="..." />
-            <marker date="1503919976000" expanded="true" signature="72564:72599" placeholder="..." />
-            <marker date="1503919976000" expanded="true" signature="72564:72612" placeholder="..." />
-            <marker date="1503919976000" expanded="true" signature="72564:72627" placeholder="..." />
+            <marker date="1503920011000" expanded="true" signature="59:72638" placeholder="..." />
+            <marker date="1503920011000" expanded="true" signature="98:129" placeholder="..." />
+            <marker date="1503920011000" expanded="true" signature="72564:72581" placeholder="..." />
+            <marker date="1503920011000" expanded="true" signature="72564:72599" placeholder="..." />
+            <marker date="1503920011000" expanded="true" signature="72564:72612" placeholder="..." />
+            <marker date="1503920011000" expanded="true" signature="72564:72627" placeholder="..." />
           </folding>
         </state>
       </provider>
