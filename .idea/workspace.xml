@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeTwoSortedLists/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeTwoSortedLists/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -867,12 +864,12 @@
       <created>1502710256206</created>
       <option name="number" value="Default" />
       <updated>1502710256206</updated>
-      <workItem from="1502710257570" duration="64238000" />
+      <workItem from="1502710257570" duration="64796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64238000" />
+    <option name="totallyTimeSpent" value="64796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1440" height="873" extended-state="0" />
@@ -1073,12 +1070,12 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1059" column="10" selection-start-line="1059" selection-start-column="10" selection-end-line="1059" selection-end-column="10" />
           <folding>
-            <marker date="1503924270000" expanded="true" signature="59:77007" placeholder="..." />
-            <marker date="1503924270000" expanded="true" signature="98:129" placeholder="..." />
-            <marker date="1503924270000" expanded="true" signature="76933:76950" placeholder="..." />
-            <marker date="1503924270000" expanded="true" signature="76933:76968" placeholder="..." />
-            <marker date="1503924270000" expanded="true" signature="76933:76981" placeholder="..." />
-            <marker date="1503924270000" expanded="true" signature="76933:76996" placeholder="..." />
+            <marker date="1503926102000" expanded="true" signature="59:76692" placeholder="..." />
+            <marker date="1503926102000" expanded="true" signature="98:129" placeholder="..." />
+            <marker date="1503926102000" expanded="true" signature="76618:76635" placeholder="..." />
+            <marker date="1503926102000" expanded="true" signature="76618:76653" placeholder="..." />
+            <marker date="1503926102000" expanded="true" signature="76618:76666" placeholder="..." />
+            <marker date="1503926102000" expanded="true" signature="76618:76681" placeholder="..." />
           </folding>
         </state>
       </provider>
