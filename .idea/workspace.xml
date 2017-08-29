@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeSortedArray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeSortedArray/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +31,28 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4063745">
-              <caret line="18" column="163" selection-start-line="18" selection-start-column="163" selection-end-line="18" selection-end-column="163" />
+            <state vertical-scroll-proportion="0.59342915">
+              <caret line="29" column="158" selection-start-line="29" selection-start-column="158" selection-end-line="29" selection-end-column="158" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MergeSortedArray/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MergeSortedArray/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -110,26 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SuperPow/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="102" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3445" column="24" selection-start-line="3445" selection-start-column="19" selection-end-line="3445" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -182,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/ValidParentheses/README.md" />
         <option value="$PROJECT_DIR$/src/MergeTwoSortedLists/Solution.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoSortedLists/README.md" />
+        <option value="$PROJECT_DIR$/src/MergeSortedArray/Solution.java" />
+        <option value="$PROJECT_DIR$/src/MergeSortedArray/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -274,29 +279,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MergeTwoSortedLists" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Solution.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MergeTwoSortedLists" />
+              <option name="myItemId" value="MergeSortedArray" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,27 +295,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
-    <configuration default="false" name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Pow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Pow.Solution" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetcode-java" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="false" name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -401,6 +364,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="MergeTwoSortedLists.Solution" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leetcode-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="MergeSortedArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="MergeSortedArray.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -838,19 +821,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution (5)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution (5)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solution" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Solution (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution (5)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -864,12 +847,12 @@
       <created>1502710256206</created>
       <option name="number" value="Default" />
       <updated>1502710256206</updated>
-      <workItem from="1502710257570" duration="64796000" />
+      <workItem from="1502710257570" duration="66385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64796000" />
+    <option name="totallyTimeSpent" value="66385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1440" height="873" extended-state="0" />
@@ -882,10 +865,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.340589" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.340589" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18168813" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18168813" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1070,12 +1053,12 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1059" column="10" selection-start-line="1059" selection-start-column="10" selection-end-line="1059" selection-end-column="10" />
           <folding>
-            <marker date="1503926102000" expanded="true" signature="59:76692" placeholder="..." />
-            <marker date="1503926102000" expanded="true" signature="98:129" placeholder="..." />
-            <marker date="1503926102000" expanded="true" signature="76618:76635" placeholder="..." />
-            <marker date="1503926102000" expanded="true" signature="76618:76653" placeholder="..." />
-            <marker date="1503926102000" expanded="true" signature="76618:76666" placeholder="..." />
-            <marker date="1503926102000" expanded="true" signature="76618:76681" placeholder="..." />
+            <marker date="1504005763000" expanded="true" signature="59:76733" placeholder="..." />
+            <marker date="1504005763000" expanded="true" signature="98:129" placeholder="..." />
+            <marker date="1504005763000" expanded="true" signature="76659:76676" placeholder="..." />
+            <marker date="1504005763000" expanded="true" signature="76659:76694" placeholder="..." />
+            <marker date="1504005763000" expanded="true" signature="76659:76707" placeholder="..." />
+            <marker date="1504005763000" expanded="true" signature="76659:76722" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1401,10 +1384,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeSortedArray/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeSortedArray/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4063745">
-          <caret line="18" column="163" selection-start-line="18" selection-start-column="163" selection-end-line="18" selection-end-column="163" />
+        <state vertical-scroll-proportion="0.59342915">
+          <caret line="29" column="158" selection-start-line="29" selection-start-column="158" selection-end-line="29" selection-end-column="158" />
           <folding />
         </state>
       </provider>

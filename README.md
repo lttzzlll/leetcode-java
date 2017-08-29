@@ -23,6 +23,7 @@ leetcode with java
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | --- | --- | Int->String |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | [Solution](/src/Sqrt) | --- | --- | [Math](https://www.zhihu.com/question/19723347) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Solution](/src/MergeSortedArray) | O(m+n) | O(1) | Array, Iteration |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
 | 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort | 
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/#/description) | [Solution](src/RotateArray) | O(n) | O(1) | Rotate |
