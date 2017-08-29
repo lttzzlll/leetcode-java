@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeSortedArray/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeSortedArray/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59342915">
-              <caret line="29" column="158" selection-start-line="29" selection-start-column="158" selection-end-line="29" selection-end-column="158" />
+            <state vertical-scroll-proportion="0.69815195">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -847,12 +842,12 @@
       <created>1502710256206</created>
       <option name="number" value="Default" />
       <updated>1502710256206</updated>
-      <workItem from="1502710257570" duration="66385000" />
+      <workItem from="1502710257570" duration="66504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66385000" />
+    <option name="totallyTimeSpent" value="66504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1440" height="873" extended-state="0" />
@@ -1053,12 +1048,12 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1059" column="10" selection-start-line="1059" selection-start-column="10" selection-end-line="1059" selection-end-column="10" />
           <folding>
-            <marker date="1504005763000" expanded="true" signature="59:76733" placeholder="..." />
-            <marker date="1504005763000" expanded="true" signature="98:129" placeholder="..." />
-            <marker date="1504005763000" expanded="true" signature="76659:76676" placeholder="..." />
-            <marker date="1504005763000" expanded="true" signature="76659:76694" placeholder="..." />
-            <marker date="1504005763000" expanded="true" signature="76659:76707" placeholder="..." />
-            <marker date="1504005763000" expanded="true" signature="76659:76722" placeholder="..." />
+            <marker date="1504005834000" expanded="true" signature="59:76281" placeholder="..." />
+            <marker date="1504005834000" expanded="true" signature="98:129" placeholder="..." />
+            <marker date="1504005834000" expanded="true" signature="76207:76224" placeholder="..." />
+            <marker date="1504005834000" expanded="true" signature="76207:76242" placeholder="..." />
+            <marker date="1504005834000" expanded="true" signature="76207:76255" placeholder="..." />
+            <marker date="1504005834000" expanded="true" signature="76207:76270" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1402,8 +1397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59342915">
-          <caret line="29" column="158" selection-start-line="29" selection-start-column="158" selection-end-line="29" selection-end-column="158" />
+        <state vertical-scroll-proportion="0.69815195">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
