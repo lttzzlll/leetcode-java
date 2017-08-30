@@ -20,6 +20,7 @@ leetcode with java
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Solution](/src/RemoveDuplicatesfromSortedArray) | O(n) | O(1) | Array |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Solution](/src/RemoveElement) | O(n) | O(1) | Array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Solution](/src/ImplementstrStr) | O(n*m) | O(1) | String Match |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Solution](/src/SearchInsertPosition) | O(n) | O(1) | Array |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
