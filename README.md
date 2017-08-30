@@ -21,6 +21,7 @@ leetcode with java
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Solution](/src/RemoveElement) | O(n) | O(1) | Array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Solution](/src/ImplementstrStr) | O(n*m) | O(1) | String Match |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Solution](/src/SearchInsertPosition) | O(n) | O(1) | Array |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say/discuss/) | [Solution](/src/CountandSay) | O(n) | O(1) | String |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
