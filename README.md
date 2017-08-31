@@ -37,6 +37,7 @@ leetcode with java
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number | 
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 372 | [Super Pow](https://leetcode.com/problems/super-pow/discuss/) | [Solution](/src/SuperPow) | --- | --- | Math |
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue|
