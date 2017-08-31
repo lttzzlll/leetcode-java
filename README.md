@@ -20,6 +20,7 @@ leetcode with java
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Solution](/src/RemoveDuplicatesfromSortedArray) | O(n) | O(1) | Array |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Solution](/src/RemoveElement) | O(n) | O(1) | Array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Solution](/src/ImplementstrStr) | O(n*m) | O(1) | String Match |
+| 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | [Solution](/src/SearchforaRange) | O(log(n)) | O(1) | Binary Search |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Solution](/src/SearchInsertPosition) | O(n) | O(1) | Array |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/discuss/) | [Solution](/src/CountandSay) | O(n) | O(1) | String |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
