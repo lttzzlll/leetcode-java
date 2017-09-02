@@ -39,6 +39,7 @@ leetcode with java
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description) | [Solution](src/ReverseLinkedList) | O(n) | O(1) | LinkedList | 
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number | 
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | [Solution](/src/MissingNumber) | O(n) | O(1) | XOR |
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer | |
