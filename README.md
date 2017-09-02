@@ -31,6 +31,7 @@ leetcode with java
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Solution](/src/EditDistance) | O(n * m) | O(n * m) | Dynamic Programming |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Solution](/src/MergeSortedArray) | O(m+n) | O(1) | Array, Iteration |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
 | 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort | 
