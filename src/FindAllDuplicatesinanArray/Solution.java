@@ -7,19 +7,15 @@ import java.util.List;
  * Created by 10609 on 2017/9/4.
  */
 public class Solution {
-    private void swap(int[] nums, int a, int b) {
-        int temp = nums[a];
-        nums[a] = nums[b];
-        nums[b] = temp;
-    }
 
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
-            while (i + 1 != nums[nums[i] - 1])
-                swap(nums, i, nums[i] - 1);
-            if (i + 1 == nums[nums[i] - 1])
-                res.add(i + 1);
+            // mark the position, but not cover the value
+            int pos = Math.abs(nums[i]) - 1;
+            if (nums[pos] < 0)
+                res.add(pos + 1);
+            nums[pos] *= -1;
         }
         return res;
     }
