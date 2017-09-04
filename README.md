@@ -23,6 +23,7 @@ leetcode with java
 | 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | [Solution](/src/SearchforaRange) | O(log(n)) | O(1) | Binary Search |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Solution](/src/SearchInsertPosition) | O(n) | O(1) | Array |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/discuss/) | [Solution](/src/CountandSay) | O(n) | O(1) | String |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/discuss/) | [Solution](/src/FirstMissingPositive) | O(n) | O(1) | Swap |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
@@ -48,4 +49,5 @@ leetcode with java
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) | [Solution](/src/GuessNumberHigherorLower) | O(log(n)) | O(1) | Binary Search |
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue|
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/#/description) | [Solution](src/AddTwoNumbersII) | --- | --- | LinkedList |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1) | Array, Mark |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/ ) | [Solution](/src/SumofSquareNumbers)| --- | --- | Math |
