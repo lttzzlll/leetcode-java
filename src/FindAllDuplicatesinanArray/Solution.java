@@ -3,18 +3,6 @@ package FindAllDuplicatesinanArray;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
-<<<<<<< HEAD
- * Created by liutaotao on 2017/9/4.
- */
-public class Solution {
-    public List<Integer> findDuplicates(int[] nums) {
-        List<Integer> res = new ArrayList<>();
-        return res;
-    }
-=======
- * Created by 10609 on 2017/9/4.
- */
 public class Solution {
 
     public List<Integer> findDuplicates(int[] nums) {
@@ -38,6 +26,4 @@ public class Solution {
             System.out.println(i);
         }
     }
-
->>>>>>> b885df8755350ffc1256016e13c6ae104548dbb7
 }
