@@ -36,6 +36,7 @@ leetcode with java
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
 | 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort | 
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Solution](/src/MajorityElement) | O(n) | O(1) | Count, Add, Sub |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/#/description) | [Solution](src/RotateArray) | O(n) | O(1) | Rotate |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description) | [Solution](src/ReverseLinkedList) | O(n) | O(1) | LinkedList | 
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
