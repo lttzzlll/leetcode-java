@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FindAllDuplicatesinanArray/Solution.java" afterPath="$PROJECT_DIR$/src/FindAllDuplicatesinanArray/Solution.java" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,8 +98,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FindAllDuplicatesinanArray/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5099602">
-              <caret line="17" column="4" selection-start-line="8" selection-start-column="5" selection-end-line="17" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.12749004">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -728,12 +726,12 @@
       <updated>1502710256206</updated>
       <workItem from="1502710257570" duration="106126000" />
       <workItem from="1504537741192" duration="1006000" />
-      <workItem from="1504611441674" duration="63000" />
+      <workItem from="1504611441674" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107195000" />
+    <option name="totallyTimeSpent" value="107332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -1300,8 +1298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindAllDuplicatesinanArray/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5099602">
-          <caret line="17" column="4" selection-start-line="8" selection-start-column="5" selection-end-line="17" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.12749004">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
