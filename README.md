@@ -25,6 +25,7 @@ leetcode with java
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/discuss/) | [Solution](/src/CountandSay) | O(n) | O(1) | String |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/discuss/) | [Solution](/src/FirstMissingPositive) | O(n) | O(1) | Swap |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Solution](src/MaximumSubarray) | O(n) | O(n) | Dynamic Programming |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | --- | --- | Int->String |

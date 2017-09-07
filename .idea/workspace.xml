@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaximumSubarray/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaximumSubarray/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaximumProductSubarray/README.md" afterPath="$PROJECT_DIR$/src/MaximumProductSubarray/README.md" />
     </list>
     <ignored path="leetcode-java.iws" />
@@ -28,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31728664">
+              <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaximumSubarray/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaximumProductSubarray/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31509846">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state vertical-scroll-proportion="-5.3333335">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -125,10 +133,10 @@
         <option value="$PROJECT_DIR$/src/MaximumProductofThreeNumbers/Solution.java" />
         <option value="$PROJECT_DIR$/src/MaximumProductofThreeNumbers/README.md" />
         <option value="$PROJECT_DIR$/src/MaximumProductSubarray/Solution.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/MaximumSubarray/Solution.java" />
         <option value="$PROJECT_DIR$/src/MaximumSubarray/README.md" />
         <option value="$PROJECT_DIR$/src/MaximumProductSubarray/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -820,12 +828,12 @@
       <workItem from="1502710257570" duration="106126000" />
       <workItem from="1504537741192" duration="1006000" />
       <workItem from="1504611441674" duration="13910000" />
-      <workItem from="1504706377236" duration="6496000" />
+      <workItem from="1504706377236" duration="6624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127538000" />
+    <option name="totallyTimeSpent" value="127666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="197" y="23" width="1189" height="873" extended-state="0" />
@@ -1406,14 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3703704">
-          <caret line="36" column="193" selection-start-line="36" selection-start-column="193" selection-end-line="36" selection-end-column="193" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximumProductSubarray/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0413224">
@@ -1466,8 +1466,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximumProductSubarray/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31509846">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31728664">
+          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
           <folding />
         </state>
       </provider>
