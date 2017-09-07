@@ -16,7 +16,7 @@ leetcode with java
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Solution](/src/RomanToInteger) | O(n)| O(1) | String -> Integer |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Solution](/src/LongestCommonPrefix) | --- | --- | String |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Solution](/src/ValidParentheses) | --- | --- | Stack |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/discuss/) | [Solution](/src/MergeTwoSortedLists) | O(n) | O(1) | LinkedList, Recursion|
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/discuss/) | [Solution](/src/MergeTwoSortedLists) | O(n) | O(1) | LinkedList, Recursion |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Solution](/src/RemoveDuplicatesfromSortedArray) | O(n) | O(1) | Array |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Solution](/src/RemoveElement) | O(n) | O(1) | Array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Solution](/src/ImplementstrStr) | O(n*m) | O(1) | String Match |
@@ -33,7 +33,7 @@ leetcode with java
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Solution](/src/EditDistance) | O(n * m) | O(n * m) | Dynamic Programming |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Solution](/src/MergeSortedArray) | O(m+n) | O(1) | Array, Iteration |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | O(n)| O(1) | Indexing | |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Solution](/src/BestTimetoBuyandSellStock) | O(n) | O(1) | Indexing |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | [Solution](src/MaximumProductSubarray) | O(n) | O(n), O(1)[swap] | Dynamic Programming |
@@ -48,12 +48,12 @@ leetcode with java
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | [Solution](/src/MissingNumber) | O(n) | O(1) | XOR |
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
-| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer | |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 372 | [Super Pow](https://leetcode.com/problems/super-pow/discuss/) | [Solution](/src/SuperPow) | --- | --- | Math |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) | [Solution](/src/GuessNumberHigherorLower) | O(log(n)) | O(1) | Binary Search |
-| 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue|
-| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1)| Array, mark as negative value|
+| 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1)| Array, mark as negative value |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/#/description) | [Solution](src/AddTwoNumbersII) | --- | --- | LinkedList |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1) | Array, Mark |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](src/MaximumProductofThreeNumbers) | O(n) | O(1) | Iterate |
