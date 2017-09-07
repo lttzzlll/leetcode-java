@@ -33,6 +33,7 @@ leetcode with java
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Solution](/src/EditDistance) | O(n * m) | O(n * m) | Dynamic Programming |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Solution](/src/MergeSortedArray) | O(m+n) | O(1) | Array, Iteration |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | O(n)| O(1) | Indexing | |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | [Solution](src/MaximumProductSubarray) | O(n) | O(n), O(1)[swap] | Dynamic Programming |
