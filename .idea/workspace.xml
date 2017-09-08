@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md" afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md" />
+    </list>
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56198347">
+            <state vertical-scroll-proportion="-15.111111">
               <caret line="36" column="206" selection-start-line="36" selection-start-column="206" selection-end-line="36" selection-end-column="206" />
               <folding />
             </state>
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7777778">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.03305785">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -142,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStock/README.md" />
         <option value="$PROJECT_DIR$/src/MaximumSubarray/Solution.java" />
         <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/Solution.java" />
-        <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md" />
       </list>
     </option>
   </component>
@@ -817,12 +819,12 @@
       <workItem from="1502710257570" duration="106126000" />
       <workItem from="1504537741192" duration="1006000" />
       <workItem from="1504611441674" duration="13910000" />
-      <workItem from="1504706377236" duration="12689000" />
+      <workItem from="1504706377236" duration="12854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133731000" />
+    <option name="totallyTimeSpent" value="133896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="306" y="23" width="1093" height="873" extended-state="0" />
@@ -1445,10 +1447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7777778">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state vertical-scroll-proportion="-15.111111">
+          <caret line="36" column="206" selection-start-line="36" selection-start-column="206" selection-end-line="36" selection-end-column="206" />
           <folding />
         </state>
       </provider>
@@ -1461,10 +1463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56198347">
-          <caret line="36" column="206" selection-start-line="36" selection-start-column="206" selection-end-line="36" selection-end-column="206" />
+        <state vertical-scroll-proportion="0.03305785">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           <folding />
         </state>
       </provider>
