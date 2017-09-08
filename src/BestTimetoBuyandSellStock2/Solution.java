@@ -4,10 +4,29 @@ package BestTimetoBuyandSellStock2;
  * Created by liutaotao on 2017/9/7.
  */
 public class Solution {
-
-
     public int maxProfit(int[] prices) {
+        if (prices.length < 2) return 0;
+        int res = 0;
+        for (int i = 0; i < prices.length - 1; i++) {
+            if (prices[i + 1] > prices[i]) res += prices[i + 1] - prices[i];
+        }
+        return res;
     }
+
+//    public int maxProfit(int[] prices) {
+//        if (prices.length < 2) return 0;
+//        int[] dp = new int[prices.length];
+//        int minPrice = prices[0], res = 0;
+//        for (int i = 1; i < prices.length; i++) {
+//            minPrice = Math.min(minPrice, prices[i]);
+//            if (prices[i] - minPrice >= dp[i - 1]) dp[i] = prices[i] - minPrice;
+//            else {
+//                minPrice = prices[i];
+//                res += dp[i - 1];
+//            }
+//        }
+//        return res + dp[prices.length - 1];
+//    }
 
     public static void main(String[] args) {
 
