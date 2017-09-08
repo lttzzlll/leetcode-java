@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/Solution.java" afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock2/Solution.java" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -822,12 +817,12 @@
       <workItem from="1502710257570" duration="106126000" />
       <workItem from="1504537741192" duration="1006000" />
       <workItem from="1504611441674" duration="13910000" />
-      <workItem from="1504706377236" duration="12587000" />
+      <workItem from="1504706377236" duration="12689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133629000" />
+    <option name="totallyTimeSpent" value="133731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="306" y="23" width="1093" height="873" extended-state="0" />
