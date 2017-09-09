@@ -11,8 +11,7 @@
 .idea/**/dataSources.ids
 .idea/**/dataSources.xml
 .idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
+.idea/**/sqlDataSources.xml .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
 # Gradle:
@@ -47,3 +46,5 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+.idea/workspace.xml
