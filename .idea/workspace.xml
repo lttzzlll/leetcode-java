@@ -28,17 +28,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.20787746">
+            <state vertical-scroll-proportion="3.5185184">
               <caret line="45" column="185" selection-start-line="45" selection-start-column="185" selection-end-line="45" selection-end-column="185" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KthLargestElementinanArray/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -892,12 +892,12 @@
       <workItem from="1504611441674" duration="13910000" />
       <workItem from="1504706377236" duration="12854000" />
       <workItem from="1504947821773" duration="4172000" />
-      <workItem from="1505214797766" duration="11686000" />
+      <workItem from="1505214797766" duration="11699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149754000" />
+    <option name="totallyTimeSpent" value="149767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="23" width="1246" height="873" extended-state="0" />
@@ -1657,18 +1657,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KthLargestElementinanArray/Solution.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="34" />
+        <state vertical-scroll-proportion="3.5185184">
+          <caret line="45" column="185" selection-start-line="45" selection-start-column="185" selection-end-line="45" selection-end-column="185" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/KthLargestElementinanArray/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20787746">
-          <caret line="45" column="185" selection-start-line="45" selection-start-column="185" selection-end-line="45" selection-end-column="185" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
