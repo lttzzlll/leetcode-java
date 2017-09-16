@@ -61,6 +61,7 @@ leetcode with java
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 372 | [Super Pow](https://leetcode.com/problems/super-pow/discuss/) | [Solution](/src/SuperPow) | --- | --- | Math |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) | [Solution](/src/GuessNumberHigherorLower) | O(log(n)) | O(1) | Binary Search |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/description/)| [Solution](/src/BinaryWatch) | --- | --- | Code |
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/) | [Solution](/src/ThirdMaximumNumber) | O(n) | O(1) | Compare |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1)| Array, mark as negative value |
