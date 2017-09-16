@@ -16,6 +16,7 @@ leetcode with java
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Solution](/src/RomanToInteger) | O(n)| O(1) | String -> Integer |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Solution](/src/LongestCommonPrefix) | --- | --- | String |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Solutoion](/src/ThreeSumClosest) | O(n^2) | O(n) | Sort And Compare |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Solution](/src/LetterCombinationsofaPhoneNumber) | O(m * n * 3) | O(n) | List, Loop |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Solution](/src/ValidParentheses) | --- | --- | Stack |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/discuss/) | [Solution](/src/MergeTwoSortedLists) | O(n) | O(1) | LinkedList, Recursion |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Solution](/src/RemoveDuplicatesfromSortedArray) | O(n) | O(1) | Array |
