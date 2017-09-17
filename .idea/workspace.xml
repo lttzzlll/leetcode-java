@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45728642">
-              <caret line="46" column="139" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
+            <state vertical-scroll-proportion="0.6381909">
+              <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -911,12 +913,12 @@
       <workItem from="1504706377236" duration="12854000" />
       <workItem from="1504947821773" duration="4172000" />
       <workItem from="1505214797766" duration="18648000" />
-      <workItem from="1505551704646" duration="19647000" />
+      <workItem from="1505551704646" duration="19739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176363000" />
+    <option name="totallyTimeSpent" value="176455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="125" y="42" width="1190" height="833" extended-state="0" />
@@ -1689,8 +1691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45728642">
-          <caret line="46" column="139" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
+        <state vertical-scroll-proportion="0.6381909">
+          <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
           <folding />
         </state>
       </provider>
