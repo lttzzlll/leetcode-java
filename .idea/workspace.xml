@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinaryWatch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinaryWatch/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Numberof1Bits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Numberof1Bits/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -31,8 +31,28 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4734918">
-              <caret line="63" column="129" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
+            <state vertical-scroll-proportion="0.69849247">
+              <caret line="46" column="139" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Numberof1Bits/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Numberof1Bits/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -128,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FindtheDuplicateNumber/Solution.java" />
-        <option value="$PROJECT_DIR$/src/FindtheDuplicateNumber/README.md" />
         <option value="$PROJECT_DIR$/src/LinkedListCycle2/Solution.java" />
         <option value="$PROJECT_DIR$/src/LinkedListCycle2/README.md" />
         <option value="$PROJECT_DIR$/src/SingleNumber/Solution.java" />
@@ -178,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber/README.md" />
         <option value="$PROJECT_DIR$/src/BinaryWatch/Solution.java" />
         <option value="$PROJECT_DIR$/src/BinaryWatch/README.md" />
+        <option value="$PROJECT_DIR$/src/Numberof1Bits/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Numberof1Bits/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -277,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LetterCombinationsofaPhoneNumber" />
+              <option name="myItemId" value="Numberof1Bits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,7 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BinaryWatch" />
+              <option name="myItemId" value="LetterCombinationsofaPhoneNumber" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,27 +336,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
-    <configuration default="false" name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="KthLargestElementinanArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="KthLargestElementinanArray.Solution" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetcode-java" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="false" name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -405,6 +405,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="BinaryWatch.Solution" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leetcode-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Numberof1Bits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Numberof1Bits.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -875,19 +895,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution (5)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solution (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Solution (5)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution (4)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution (5)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -907,12 +927,12 @@
       <workItem from="1504706377236" duration="12854000" />
       <workItem from="1504947821773" duration="4172000" />
       <workItem from="1505214797766" duration="18648000" />
-      <workItem from="1505551704646" duration="13651000" />
+      <workItem from="1505551704646" duration="15993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170367000" />
+    <option name="totallyTimeSpent" value="172709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="155" y="23" width="1190" height="833" extended-state="0" />
@@ -920,12 +940,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29833546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2982456" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2240216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42510122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22473867" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1300,20 +1320,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SingleNumber/README.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MissingNumber/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstMissingPositive/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1679,10 +1685,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Numberof1Bits/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Numberof1Bits/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4734918">
-          <caret line="63" column="129" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
+        <state vertical-scroll-proportion="0.69849247">
+          <caret line="46" column="139" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
           <folding />
         </state>
       </provider>
