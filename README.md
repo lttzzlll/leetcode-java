@@ -60,6 +60,7 @@ leetcode with java
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(n) | Map |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Solution](src/IntersectionofTwoArrays) | O(n) | O(n) | Set |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 372 | [Super Pow](https://leetcode.com/problems/super-pow/discuss/) | [Solution](/src/SuperPow) | --- | --- | Math |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) | [Solution](/src/GuessNumberHigherorLower) | O(log(n)) | O(1) | Binary Search |
