@@ -63,6 +63,7 @@ leetcode with java
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 372 | [Super Pow](https://leetcode.com/problems/super-pow/discuss/) | [Solution](/src/SuperPow) | --- | --- | Math |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) | [Solution](/src/GuessNumberHigherorLower) | O(log(n)) | O(1) | Binary Search |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/) | [Solution](src/FindtheDifference) | --- | --- | Char, Bit |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/description/)| [Solution](/src/BinaryWatch) | --- | --- | Code |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/) | [Solution](src/ConvertaNumbertoHexadecimal) | --- | --- | Bits |
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | [Solution](/src/TrappingRainWater) | O(?) | O(m) * O(n) | BFS, Priority Queue |
