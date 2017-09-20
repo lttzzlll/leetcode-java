@@ -20,10 +20,9 @@ public class Solution {
             }
         }
 
-
         int count = 0;
         for (int i : numCount.keySet()) {
-            int temp = Math.min(numCount.get(i), copy.get(i));
+            int temp = Math.min(numCount.get(i), copy.getOrDefault(i, 0));
             numCount.put(i, temp);
             count += temp;
         }
@@ -33,7 +32,7 @@ public class Solution {
             int t = numCount.get(i);
             while (t > 0) {
                 res[pos++] = i;
-                t++;
+                t--;
             }
         }
         return res;
