@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IntersectionofTwoArraysII/Solution.java" afterPath="$PROJECT_DIR$/src/IntersectionofTwoArraysII/Solution.java" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -985,12 +983,12 @@
       <workItem from="1504706377236" duration="12854000" />
       <workItem from="1504947821773" duration="4172000" />
       <workItem from="1505214797766" duration="18648000" />
-      <workItem from="1505551704646" duration="28330000" />
+      <workItem from="1505551704646" duration="28406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185046000" />
+    <option name="totallyTimeSpent" value="185122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="231" y="23" width="1190" height="833" extended-state="0" />
