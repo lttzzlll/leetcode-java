@@ -5,11 +5,24 @@ package ReverseString;
  */
 public class Solution {
 
+//    public String reverseString(String s) {
+//        char[] res = new char[s.length()];
+//        int pos = s.length() - 1;
+//        for (char c : s.toCharArray()) {
+//            res[pos--] = c;
+//        }
+//        return String.valueOf(res);
+//    }
+
     public String reverseString(String s) {
-        char[] res = new char[s.length()];
-        int pos = s.length() - 1;
-        for (char c : s.toCharArray()) {
-            res[pos--] = c;
+        char[] res = s.toCharArray();
+        int left = 0, right = s.length() - 1;
+        while (left < right) {
+            char temp = res[left];
+            res[left] = res[right];
+            res[right] = temp;
+            left++;
+            right--;
         }
         return String.valueOf(res);
     }
