@@ -60,6 +60,7 @@ leetcode with java
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Solution](src/ReverseString) | --- | --- | String |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(n) | Map |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Solution](src/IntersectionofTwoArrays) | O(n) | O(n) | Set |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [Solution](src/IntersectionofTwoArraysII) | --- | --- | Map |
