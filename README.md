@@ -62,6 +62,7 @@ leetcode with java
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/) | [Solution](src/RangeSumQueryImmutable) | ---  | --- | Array |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Solution](src/ReverseString) | --- | --- | String |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](src/ReverseVowelsofaString) | --- | --- | String |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(n) | Map |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Solution](src/IntersectionofTwoArrays) | O(n) | O(n) | Set |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [Solution](src/IntersectionofTwoArraysII) | --- | --- | Map |
