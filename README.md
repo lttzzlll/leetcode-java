@@ -3,7 +3,7 @@ leetcode with java
 
 | # | Title | Solution | Time Cost | Space Cost | Tips |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/#/description) | [Solution](src/twoSum) | O(n) | O(n) | Map | 
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/#/description) | [Solution](src/twoSum) | O(n) | O(n) | Map |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description) | [Solution](src/AddTwoNumbers) | --- | --- | LinkedList |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/#/discuss)| [Solution](src/LongestSubstringWithoutRepeatingCharacters) | O(n) | O(n) | Map |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/#/description) | [Solution](src/MedianofTwoSortedArrays) | O(log(m + n)) | O(m + n) | Binary Search |
@@ -42,7 +42,7 @@ leetcode with java
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | [Solution](src/MaximumProductSubarray) | O(n) | O(n), O(1)[swap] | Dynamic Programming |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
-| 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort | 
+| 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Solution](/src/MajorityElement) | O(n) | O(1) | Count, Add, Sub |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/#/description) | [Solution](src/RotateArray) | O(n) | O(1) | Rotate |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [Solution](src/ReverseBits) | --- | --- | Bits Operation |
@@ -55,7 +55,7 @@ leetcode with java
 | 215 | [ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number | 
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | [Solution](/src/MissingNumber) | O(n) | O(1) | XOR |
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
@@ -81,4 +81,4 @@ leetcode with java
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) | [Solution](src/ReverseStringII) | --- | --- | String |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | [Solution](src/ReverseWordsinaStringIII) | --- | --- | String |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](src/MaximumProductofThreeNumbers) | O(n) | O(1) | Iterate |
-| 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/ ) | [Solution](/src/SumofSquareNumbers)| --- | --- | Math |
+| 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | [Solution](/src/SumofSquareNumbers) | --- | --- | Math |
