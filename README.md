@@ -41,6 +41,7 @@ leetcode with java
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Solution](/src/BestTimetoBuyandSellStock) | O(n) | O(1) | Indexing |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Solution](/src/BestTimetoBuyandSellStock2) | O(n) | O(1) | Dynamic Programming |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [Solution](src/LinkedListCycle) | --- | ---  | Linked List Cycle |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | [Solution](src/MaximumProductSubarray) | O(n) | O(n), O(1)[swap] | Dynamic Programming |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
