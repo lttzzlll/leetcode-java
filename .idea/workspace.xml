@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +26,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22263451">
+            <state vertical-scroll-proportion="0.3320965">
               <caret line="59" column="178" selection-start-line="59" selection-start-column="178" selection-end-line="59" selection-end-column="178" />
               <folding />
             </state>
@@ -1004,15 +999,15 @@
       <workItem from="1504947821773" duration="4172000" />
       <workItem from="1505214797766" duration="18648000" />
       <workItem from="1505551704646" duration="39812000" />
-      <workItem from="1509810009106" duration="19936000" />
+      <workItem from="1509810009106" duration="19993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216464000" />
+    <option name="totallyTimeSpent" value="216521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="27" width="1063" height="873" extended-state="0" />
+    <frame x="377" y="27" width="1063" height="873" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1834,7 +1829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22263451">
+        <state vertical-scroll-proportion="0.3320965">
           <caret line="59" column="178" selection-start-line="59" selection-start-column="178" selection-end-line="59" selection-end-column="178" />
           <folding />
         </state>
