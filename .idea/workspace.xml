@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergekSortedLists/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,7 +48,7 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MergekSortedLists/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.445269">
+            <state vertical-scroll-proportion="1.0">
               <caret line="88" column="0" selection-start-line="57" selection-start-column="3" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="e#146#147#0" expanded="true" />
@@ -1043,15 +1040,15 @@
       <workItem from="1504947821773" duration="4172000" />
       <workItem from="1505214797766" duration="18648000" />
       <workItem from="1505551704646" duration="39812000" />
-      <workItem from="1509810009106" duration="26910000" />
+      <workItem from="1509810009106" duration="27345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223438000" />
+    <option name="totallyTimeSpent" value="223873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="201" y="27" width="1197" height="873" extended-state="0" />
+    <frame x="201" y="27" width="1197" height="873" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1925,7 +1922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MergekSortedLists/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.445269">
+        <state vertical-scroll-proportion="1.0">
           <caret line="88" column="0" selection-start-line="57" selection-start-column="3" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
