@@ -22,6 +22,7 @@ leetcode with java
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Solution](/src/ValidParentheses) | --- | --- | Stack |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/discuss/) | [Solution](/src/MergeTwoSortedLists) | O(n) | O(1) | LinkedList, Recursion |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/discuss/) | [Solution](src/GenerateParentheses) | --- | --- | BackTrace |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/discuss/) | [Solution](src/MergekSortedLists) | n*log(n) | O(n) | Divide And Conquer, Recursive, Priority Queue |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Solution](/src/RemoveDuplicatesfromSortedArray) | O(n) | O(1) | Array |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Solution](/src/RemoveElement) | O(n) | O(1) | Array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Solution](/src/ImplementstrStr) | O(n*m) | O(1) | String Match |
