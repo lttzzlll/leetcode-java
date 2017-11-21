@@ -32,6 +32,7 @@ leetcode with java
 | 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | [Solution](/src/SearchforaRange) | O(log(n)) | O(1) | Binary Search |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Solution](/src/SearchInsertPosition) | O(n) | O(1) | Array |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/discuss/) | [Solution](/src/CountandSay) | O(n) | O(1) | String |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/discuss/) | [Solution](src/CombinationSum) | O(n*m) | O(n) | Backtracing |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/discuss/) | [Solution](/src/FirstMissingPositive) | O(n) | O(1) | Swap |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Solution](src/MaximumSubarray) | O(n) | O(n) | Dynamic Programming |
