@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CombinationSum/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CombinationSum/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.27639157">
-              <caret line="34" column="145" selection-start-line="34" selection-start-column="145" selection-end-line="34" selection-end-column="145" />
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1033,12 +1028,12 @@
       <workItem from="1504947821773" duration="4172000" />
       <workItem from="1505214797766" duration="18648000" />
       <workItem from="1505551704646" duration="39812000" />
-      <workItem from="1509810009106" duration="43093000" />
+      <workItem from="1509810009106" duration="43126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239621000" />
+    <option name="totallyTimeSpent" value="239654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1934,7 +1929,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27639157">
-          <caret line="34" column="145" selection-start-line="34" selection-start-column="145" selection-end-line="34" selection-end-column="145" />
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
