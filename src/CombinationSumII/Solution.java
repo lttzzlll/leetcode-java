@@ -48,13 +48,10 @@ public class Solution {
 
     private void solve(List<List<Integer>> res, List<Integer> cur, int[] nums, int start, int target) {
         if (target == 0) {
-            String str = toStr(cur);
-            if (!set.contains(str)) {
-                res.add(new ArrayList<>(cur));
-                set.add(str);
-            }
+            res.add(new ArrayList<>(cur));
         } else if (target > 0) {
             for (int i = start; i < nums.length; i++) {
+                if (i > start && nums[i] == nums[i - 1]) continue; // skip same element in one position
                 cur.add(nums[i]);
                 solve(res, cur, nums, i + 1, target - nums[i]);
                 cur.remove(cur.size() - 1);
