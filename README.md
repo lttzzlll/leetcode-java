@@ -39,6 +39,7 @@ leetcode with java
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Solution](src/MaximumSubarray) | O(n) | O(n) | Dynamic Programming |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Solution](src/MinimumPathSum) | O(n^2) | O(n^2) | Dynamic Programming, Bottom-Up, Up-Bottom, Recusive, Memo-Table |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [Solution](src/PlusOne) | --- | --- | Array |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | --- | --- | Int->String |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | [Solution](/src/Sqrt) | --- | --- | [Math](https://www.zhihu.com/question/19723347) |
