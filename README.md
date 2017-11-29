@@ -36,6 +36,7 @@ leetcode with java
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [Solution](src/CombinationSumII) | O(n*m) | O(n) | Backtracing |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/discuss/) | [Solution](/src/FirstMissingPositive) | O(n) | O(1) | Swap |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Solution](/src/TrappingRainWater) | O(n) | O(n) | Iteration |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Solution](src/RotateImage) | O(n^2) | O(1) | Matrix |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Solution](src/MaximumSubarray) | O(n) | O(n) | Dynamic Programming |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
