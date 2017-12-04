@@ -1,0 +1,49 @@
+### [Permutations II](https://leetcode.com/problems/permutations-ii/description/)
+
+按照 [Permutations](https://leetcode.com/problems/permutations/description/)的思路,只需要加上一步判重就好了.
+
+```Java
+    private HashSet<String> set = new HashSet<>();
+
+    private String arrToString(int[] nums) {
+        StringBuilder sb = new StringBuilder(nums.length);
+        for (int i : nums) {
+            sb.append(i);
+        }
+        return sb.toString();
+    }
+
+    private void perm(int[] nums, int start, List<List<Integer>> res) {
+        if (start == nums.length) {
+            String str = arrToString(nums);
+            if (!set.contains(str)) {
+                set.add(str);
+                res.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
+            }
+            return;
+        }
+        for (int i = start; i < nums.length; i++) {
+            swap(nums, i, start);
+            perm(nums, start + 1, res);
+            swap(nums, i, start);
+        }
+    }
+
+
+    private void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
+    }
+
+
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+        perm(nums, 0, res);
+        return res;
+    }
+
+```
+
+但这是一种偷懒的想法,有更好的思路,让序列有序,然后在遍历的时候判重.
