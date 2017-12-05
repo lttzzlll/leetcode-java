@@ -22,14 +22,15 @@ public class Solution {
 
     private void perm(int[] nums, int start, List<List<Integer>> res) {
         if (start == nums.length) {
-            String str = arrToString(nums);
-            if (!set.contains(str)) {
-                set.add(str);
-                res.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
-            }
+//            String str = arrToString(nums);
+//            if (!set.contains(str)) {
+//                set.add(str);
+            res.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
+//            }
             return;
         }
         for (int i = start; i < nums.length; i++) {
+            if (i > start && nums[i] == nums[start]) continue;
             swap(nums, i, start);
             perm(nums, start + 1, res);
             swap(nums, i, start);
@@ -52,7 +53,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 1};
+        int[] nums = new int[]{2, 2, 1, 1};
         Solution solution = new Solution();
         List<List<Integer>> res = solution.permuteUnique(nums);
         for (int i = 0; i < res.size(); i++) {
