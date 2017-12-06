@@ -2,7 +2,6 @@ package PermutationsII;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,8 +9,6 @@ import java.util.stream.Collectors;
  * Created by liutaotao on 2017/12/4.
  */
 public class Solution {
-    private HashSet<String> set = new HashSet<>();
-
     private String arrToString(int[] nums) {
         StringBuilder sb = new StringBuilder(nums.length);
         for (int i : nums) {
@@ -22,11 +19,7 @@ public class Solution {
 
     private void perm(int[] nums, int start, List<List<Integer>> res) {
         if (start == nums.length) {
-//            String str = arrToString(nums);
-//            if (!set.contains(str)) {
-//                set.add(str);
             res.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
-//            }
             return;
         }
         for (int i = start; i < nums.length; i++) {
@@ -48,6 +41,7 @@ public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
+        boolean[] used = new boolean[nums.length];
         perm(nums, 0, res);
         return res;
     }
