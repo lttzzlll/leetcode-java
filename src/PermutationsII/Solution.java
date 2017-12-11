@@ -2,7 +2,6 @@ package PermutationsII;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,70 +9,95 @@ import java.util.stream.Collectors;
  * Created by liutaotao on 2017/12/4.
  */
 public class Solution {
-    HashSet<String> set = new HashSet<>();
-    private String arrToString(int[] nums) {
-        StringBuilder sb = new StringBuilder(nums.length);
-        for (int i : nums) {
-            sb.append(i);
-        }
-        return sb.toString();
+    /**
+     #include <iostream>
+     #include <algorithm>
+     #include <vector>
+     using namespace std;
+
+     class Solution
+     {
+     public:
+     void recursion(vector<int> num, int start, vector<vector<int>> &res)
+     {
+     if (start == num.size() - 1)
+     {
+     res.push_back(num);
+     return;
+     }
+     for (int i = start; i < num.size(); i++)
+     {
+     cout << "start = " << start << ", i = " << i << endl;
+     if (start != i && num[start] == num[i])
+     continue;
+     swap(num[start], num[i]);
+     recursion(num, start + 1, res);
+     }
+     }
+     vector<vector<int>> permuteUnique(vector<int> &num)
+     {
+     sort(num.begin(), num.end());
+     vector<vector<int>> res;
+     recursion(num, 0, res);
+     return res;
+     }
+     };
+     void printVector(vector<int> &pt)
+     {
+     cout << "{ ";
+     for (int j = 0; j < pt.size(); j++)
+     {
+     cout << pt[j] << " ";
+     }
+     cout << "} " << endl;
+     }
+     int main()
+     {
+
+     vector<int> v;
+     v.push_back(1);
+     v.push_back(2);
+     v.push_back(1);
+
+     Solution *s = new Solution();
+     vector<vector<int>> res = s->permuteUnique(v);
+     for (int i = 0; i < res.size(); i++)
+     {
+     printVector(res[i]);
+     }
+     }
+
+     */
+    private static void swap(int[] num, int left, int right) {
+        int temp = num[left];
+        num[left] = num[right];
+        num[right] = temp;
     }
 
-    private void perm(int[] nums, int start, List<List<Integer>> res, boolean[] used) {
-        if (start == nums.length) {
-//            String str = arrToString(nums);
-//            if (set.contains(str)) return;
-//            set.add(str);
-            res.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
+    private void perm(int[] num, int start, List<List<Integer>> res) {
+        if (start == num.length - 1) {
+            res.add(Arrays.stream(num).boxed().collect(Collectors.toList()));
             return;
         }
-        for (int i = start; i < nums.length; i++) {
-//            if (used[i]) continue;
-            if (i > start && nums[i] == nums[start]) continue;
-            swap(nums, i, start);
-            used[i] = true;
-            perm(nums, start + 1, res, used);
-            swap(nums, i, start);
-            used[i] = false;
+        for (int i = start; i < num.length; i++) {
+            System.out.println("start = " + start + ", i = " + i);
+            if (start != i && num[start] == num[i]) continue;
+            swap(num, i, start);
+            perm(num, start + 1, res);
         }
     }
 
-    /**
-     * 1 1 2 2
-     * 1 2 1 2
-     * 1 2 2 1
-     * 1 2 1 2
-     * 2 1 1 2
-     * 2 1 2 1
-     * 2 2 1 1
-     * 2 1 2 1
-     * 2 1 1 2
-     * 2 2 1 1
-     */
-
-
-    private void swap(int[] nums, int left, int right) {
-        int temp = nums[left];
-        nums[left] = nums[right];
-        nums[right] = temp;
-    }
-
-
-    public List<List<Integer>> permuteUnique(int[] nums) {
-        Arrays.sort(nums);
+    public List<List<Integer>> permuteUnique(int[] num) {
+        Arrays.sort(num);
         List<List<Integer>> res = new ArrayList<>();
-        boolean[] used = new boolean[nums.length];
-        perm(nums, 0, res, used);
+        perm(num, 0, res);
         return res;
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{2, 2, 1, 1, 2, 4, 5, 6};
+        int[] num = new int[]{1, 2, 1};
         Solution solution = new Solution();
-        long start = System.currentTimeMillis();
-        List<List<Integer>> res = solution.permuteUnique(nums);
-        long end = System.currentTimeMillis();
-        System.out.println(end - start);
+        List<List<Integer>> res = solution.permuteUnique(num);
         for (int i = 0; i < res.size(); i++) {
             for (int j = 0; j < res.get(i).size(); j++) {
                 System.out.print(res.get(i).get(j) + " ");
