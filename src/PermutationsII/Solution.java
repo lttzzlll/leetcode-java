@@ -9,65 +9,6 @@ import java.util.stream.Collectors;
  * Created by liutaotao on 2017/12/4.
  */
 public class Solution {
-    /**
-     #include <iostream>
-     #include <algorithm>
-     #include <vector>
-     using namespace std;
-
-     class Solution
-     {
-     public:
-     void recursion(vector<int> num, int start, vector<vector<int>> &res)
-     {
-     if (start == num.size() - 1)
-     {
-     res.push_back(num);
-     return;
-     }
-     for (int i = start; i < num.size(); i++)
-     {
-     cout << "start = " << start << ", i = " << i << endl;
-     if (start != i && num[start] == num[i])
-     continue;
-     swap(num[start], num[i]);
-     recursion(num, start + 1, res);
-     }
-     }
-     vector<vector<int>> permuteUnique(vector<int> &num)
-     {
-     sort(num.begin(), num.end());
-     vector<vector<int>> res;
-     recursion(num, 0, res);
-     return res;
-     }
-     };
-     void printVector(vector<int> &pt)
-     {
-     cout << "{ ";
-     for (int j = 0; j < pt.size(); j++)
-     {
-     cout << pt[j] << " ";
-     }
-     cout << "} " << endl;
-     }
-     int main()
-     {
-
-     vector<int> v;
-     v.push_back(1);
-     v.push_back(2);
-     v.push_back(1);
-
-     Solution *s = new Solution();
-     vector<vector<int>> res = s->permuteUnique(v);
-     for (int i = 0; i < res.size(); i++)
-     {
-     printVector(res[i]);
-     }
-     }
-
-     */
     private static void swap(int[] num, int left, int right) {
         int temp = num[left];
         num[left] = num[right];
@@ -80,10 +21,9 @@ public class Solution {
             return;
         }
         for (int i = start; i < num.length; i++) {
-            System.out.println("start = " + start + ", i = " + i);
-            if (start != i && num[start] == num[i]) continue;
+            if (i > start && num[i] == num[start]) continue;
             swap(num, i, start);
-            perm(num, start + 1, res);
+            perm(Arrays.copyOf(num, num.length), start + 1, res);
         }
     }
 
@@ -94,8 +34,15 @@ public class Solution {
         return res;
     }
 
+    static void printArr(int[] num) {
+        for (int i : num) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
-        int[] num = new int[]{1, 2, 1};
+        int[] num = new int[]{1, 2, 1, 2};
         Solution solution = new Solution();
         List<List<Integer>> res = solution.permuteUnique(num);
         for (int i = 0; i < res.size(); i++) {
