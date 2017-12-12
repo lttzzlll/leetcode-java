@@ -55,7 +55,7 @@
 
 无法工作的版本
 
-```
+```Java
     private static void swap(int[] num, int left, int right) {
         int temp = num[left];
         num[left] = num[right];
