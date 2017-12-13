@@ -40,6 +40,7 @@ leetcode with java
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [Solution](src/PermutationsII) | O(n!) | O(n) | Permutation |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Solution](src/RotateImage) | O(n^2) | O(1) | Matrix |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Solution](src/MaximumSubarray) | O(n) | O(n) | Dynamic Programming |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Solution](src/LengthofLastWord) | --- | --- | String |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Solution](src/MinimumPathSum) | O(n^2) | O(n^2) | Dynamic Programming, Bottom-Up, Up-Bottom, Recusive, Memo-Table |
