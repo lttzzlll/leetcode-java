@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java" />
     </list>
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67021275">
-              <caret line="52" column="185" selection-start-line="52" selection-start-column="185" selection-end-line="52" selection-end-column="185" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -106,20 +104,22 @@
         <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="50" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="50" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.87234044">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -203,9 +203,9 @@
         <option value="$PROJECT_DIR$/src/PermutationsII/README.md" />
         <option value="$PROJECT_DIR$/src/LengthofLastWord/Solution.java" />
         <option value="$PROJECT_DIR$/src/LengthofLastWord/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -401,6 +401,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tmall/tmall/tmall.iml" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liutaotao/Code/leetcode-java/src/ValidateBinarySearchTree/Solution.java" />
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="false" name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -995,12 +996,12 @@
       <workItem from="1505214797766" duration="18648000" />
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
-      <workItem from="1512137683744" duration="37331000" />
+      <workItem from="1512137683744" duration="38404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304280000" />
+    <option name="totallyTimeSpent" value="305353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="378" y="23" width="984" height="873" extended-state="0" />
@@ -1016,7 +1017,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24199744" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946922" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946922" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1782,42 +1783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Permutations/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PermutationsII/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Permutations/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PermutationsII/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LengthofLastWord/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1842,29 +1807,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Permutations/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Permutations/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PermutationsII/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PermutationsII/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="50" />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67021275">
-          <caret line="52" column="185" selection-start-line="52" selection-start-column="185" selection-end-line="52" selection-end-column="185" />
+        <state vertical-scroll-proportion="0.87234044">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
