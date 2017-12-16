@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree/Solution.java" />
     </list>
@@ -996,12 +997,12 @@
       <workItem from="1505214797766" duration="18648000" />
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
-      <workItem from="1512137683744" duration="38404000" />
+      <workItem from="1512137683744" duration="38424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305353000" />
+    <option name="totallyTimeSpent" value="305373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="378" y="23" width="984" height="873" extended-state="0" />
