@@ -50,6 +50,7 @@ leetcode with java
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Solution](/src/EditDistance) | O(n * m) | O(n * m) | Dynamic Programming |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Solution](/src/MergeSortedArray) | O(m+n) | O(1) | Array, Iteration |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | [Solution](src/ValidateBinarySearchTree) | --- | --- | BinaryTree Iteration, Integer |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | [Solution](src/SameTree) | --- | --- | Binary Tree |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | [Solution](src/BalancedBinaryTree) | --- | --- | Balanced Binary Tree |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Solution](/src/BestTimetoBuyandSellStock) | O(n) | O(1) | Indexing |
