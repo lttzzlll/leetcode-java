@@ -26,14 +26,15 @@ public class Solution {
      */
 
     private void perm(int[] nums, int start, List<List<Integer>> res) {
-        if (start == nums.length) {
+        // n个元素一定,前n个位置上的元素确定了,最后一个位置上的元素自然确定了
+        if (start == nums.length - 1) {
             res.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
             return;
         }
         for (int i = start; i < nums.length; i++) {
             swap(nums, start, i);
             perm(nums, start + 1, res);
-            swap(nums, start, i);
+//            swap(nums, start, i);
         }
     }
 
