@@ -3,6 +3,7 @@
 按照 [Permutations](https://leetcode.com/problems/permutations/description/)的思路,只需要加上一步判重就好了.
 
 ```Java
+public class Solution {
     private HashSet<String> set = new HashSet<>();
 
     private String arrToString(int[] nums) {
@@ -43,7 +44,7 @@
         perm(nums, 0, res);
         return res;
     }
-
+}
 ```
 
 但这是一种偷懒的想法,有更好的思路,让序列有序,然后在遍历的时候判重.
@@ -56,6 +57,7 @@
 无法工作的版本
 
 ```Java
+public class Solution {
     private static void swap(int[] num, int left, int right) {
         int temp = num[left];
         num[left] = num[right];
@@ -80,11 +82,13 @@
         perm(num, 0, res);
         return res;
     }
+}
 ```
 
 可以工作的版本
 
 ```Java
+public class Solution {
     private static void swap(int[] num, int left, int right) {
         int temp = num[left];
         num[left] = num[right];
@@ -109,4 +113,48 @@
         perm(num, 0, res);
         return res;
     }
+}
 ```
+
+
+#### 关于Permutation
+
+最基本的版本
+
+```c
+# include<stdio.h>
+
+void swap(int *a, int *b) {
+    if (*a != *b) {
+        int temp = *a;
+        *a = *b;
+        *b = temp;
+    }
+}
+
+void printArr(int num[], int len) {
+    for (int i = 0; i < len; i++) {
+        printf("%2d\t", num[i]);
+    }
+    printf("\n");
+}
+
+void perm(int num[], int start, int len) {
+    if (start == len - 1) {
+        printArr(num, len);
+        return;
+    }
+    for (int i = start; i < len; i++) {
+        swap(&num[i], &num[start]);
+        perm(num, start + 1, len);
+        swap(&num[i], &num[start]);
+    }
+}
+
+int main() {
+    int num[] = {1, 2, 3};
+    perm(num, 0, sizeof(num) / sizeof(int));
+    return 0;
+}
+```
+

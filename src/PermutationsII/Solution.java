@@ -23,6 +23,7 @@ public class Solution {
         for (int i = start; i < num.length; i++) {
             if (i > start && num[i] == num[start]) continue;
             swap(num, i, start);
+//            perm(num, start + 1, res);
             perm(Arrays.copyOf(num, num.length), start + 1, res);
         }
     }
