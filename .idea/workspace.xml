@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1035,12 +1032,12 @@
       <workItem from="1505214797766" duration="18648000" />
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
-      <workItem from="1512137683744" duration="58891000" />
+      <workItem from="1512137683744" duration="58913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325840000" />
+    <option name="totallyTimeSpent" value="325862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="460" y="23" width="925" height="873" extended-state="0" />
