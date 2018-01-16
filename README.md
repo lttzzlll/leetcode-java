@@ -58,6 +58,7 @@ leetcode with java
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [Solution](src/LinkedListCycle) | --- | ---  | Linked List Cycle |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [Solution](src/BinaryTreePreorderTraversal) | O(n) | O(n) | Binary Tree Preorder Vist |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | [Solution](src/MaximumProductSubarray) | O(n) | O(n), O(1)[swap] | Dynamic Programming |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | [Solution](src/IntersectionofTwoLinkedLists) | O(n) | O(1) | LinkedList |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
