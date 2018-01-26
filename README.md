@@ -65,6 +65,7 @@ leetcode with java
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description) | [Solution](src/FindPeakElement)| --- | --- | iteration |
 | 167 | [Two Sum 2](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](src/twoSum2) | O(log(n)) | O(1) | QuickSort |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Solution](/src/MajorityElement) | O(n) | O(1) | Count, Add, Sub |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/) | [Solution](src/BinarySearchTreeIterator) | O(log(n) | O(log(n) | Binary Tree, Inorder, Stack |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/#/description) | [Solution](src/RotateArray) | O(n) | O(1) | Rotate |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [Solution](src/ReverseBits) | --- | --- | Bits Operation |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | [Solution](/src/Numberof1Bits) | --- | --- | Bit |
