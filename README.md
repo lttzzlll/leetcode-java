@@ -79,6 +79,7 @@ leetcode with java
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Solution](src/DeleteNodeinaLinkedList) | --- | ---  | LinkedList |
+| 248 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) | [Solution](src/PeekingIterator) | O(n) | O(1) | Iterator |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | [Solution](/src/MissingNumber) | O(n) | O(1) | XOR |
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
