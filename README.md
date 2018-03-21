@@ -59,6 +59,7 @@ leetcode with java
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Solution](src/MaximumDepthofBinaryTree) | O(n) | O(n) | Binary Tree, Deep Search |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | [Solution](src/BalancedBinaryTree) | --- | --- | Balanced Binary Tree |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | [Solution](src/MinimumDepthofBinaryTree) | O(n) | O(n) | Binary Tree, Deep Search |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/description/) | [Solution](src/PathSum) | O(n) | O(1) | Binary Tree Iteration |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Solution](/src/BestTimetoBuyandSellStock) | O(n) | O(1) | Indexing |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Solution](/src/BestTimetoBuyandSellStock2) | O(n) | O(1) | Dynamic Programming |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
