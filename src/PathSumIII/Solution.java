@@ -16,8 +16,8 @@ class TreeNode {
 public class Solution {
     int calc(TreeNode root, int sum) {
         if (root == null) return 0;
-        if (root.val > sum) return 0;
-        if (root.val == sum) return 1;
+//        if (root.val > sum) return 0;
+        if (root.val == sum) return 1 + calc(root.left, sum - root.val) + calc(root.right, sum - root.val);
         return calc(root.left, sum - root.val) + calc(root.right, sum - root.val);
     }
 
