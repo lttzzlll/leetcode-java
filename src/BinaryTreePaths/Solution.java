@@ -17,24 +17,37 @@ class TreeNode {
 }
 
 public class Solution {
-    void visit(List<String> list, LinkedList<String> buf, TreeNode root) {
+//    void visit(List<String> list, LinkedList<String> buf, TreeNode root) {
+//        if (root == null) return;
+//        if (root.left == null && root.right == null) {
+//            buf.add(String.valueOf(root.val));
+//            String str = buf.toString();
+//            list.add(str.substring(1, str.length() - 1).replaceAll(", ", ""));
+//            buf.remove(buf.size() - 1);
+//        } else {
+//            buf.add(String.valueOf(root.val) + "->");
+//            visit(list, buf, root.left);
+//            visit(list, buf, root.right);
+//            buf.remove(buf.size() - 1);
+//        }
+//    }
+//
+//    public List<String> binaryTreePaths(TreeNode root) {
+//        List<String> list = new LinkedList<>();
+//        visit(list, new LinkedList<String>(), root);
+//        return list;
+//    }
+
+    void visit(List<String> list, String path, TreeNode root) {
         if (root == null) return;
-        if (root.left == null && root.right == null) {
-            buf.add(String.valueOf(root.val));
-            String str = buf.toString();
-            list.add(str.substring(1, str.length() - 1).replaceAll(", ", ""));
-            buf.remove(buf.size() - 1);
-        } else {
-            buf.add(String.valueOf(root.val) + "->");
-            visit(list, buf, root.left);
-            visit(list, buf, root.right);
-            buf.remove(buf.size() - 1);
-        }
+        if (root.left == null && root.right == null) list.add(path + root.val);
+        if (root.left != null) visit(list, path + root.val + "->", root.left);
+        if (root.right != null) visit(list, path + root.val + "->", root.right);
     }
 
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> list = new LinkedList<>();
-        visit(list, new LinkedList<String>(), root);
+        visit(list, "", root);
         return list;
     }
 
