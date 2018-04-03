@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PascalsTriangle/README.md" afterPath="$PROJECT_DIR$/src/PascalsTriangle/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PascalsTriangle/Solution.java" afterPath="$PROJECT_DIR$/src/PascalsTriangle/Solution.java" />
     </list>
@@ -79,7 +80,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PascalsTriangle/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.89261746">
+            <state vertical-scroll-proportion="5.47651">
               <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
               <folding />
             </state>
@@ -965,12 +966,12 @@
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
       <workItem from="1512137683744" duration="96062000" />
-      <workItem from="1517236214420" duration="80500000" />
+      <workItem from="1517236214420" duration="80518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443511000" />
+    <option name="totallyTimeSpent" value="443529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="183" y="23" width="1190" height="862" extended-state="0" />
@@ -1887,7 +1888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PascalsTriangle/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89261746">
+        <state vertical-scroll-proportion="5.47651">
           <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
           <folding />
         </state>
