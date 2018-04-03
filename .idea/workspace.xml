@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestUnivaluePath/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestUnivaluePath/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PascalsTriangle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PascalsTriangle/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PascalsTriangle/README.md" afterPath="$PROJECT_DIR$/src/PascalsTriangle/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PascalsTriangle/Solution.java" afterPath="$PROJECT_DIR$/src/PascalsTriangle/Solution.java" />
     </list>
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,9 +67,10 @@
         <entry file="file://$PROJECT_DIR$/src/PascalsTriangle/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="87" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1522762561000" expanded="true" signature="1663:2769" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -82,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/PascalsTriangle/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.89261746">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -232,7 +230,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="473" />
+    <option name="x" value="183" />
     <option name="y" value="23" />
     <option name="width" value="1190" />
     <option name="height" value="862" />
@@ -967,15 +965,15 @@
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
       <workItem from="1512137683744" duration="96062000" />
-      <workItem from="1517236214420" duration="78652000" />
+      <workItem from="1517236214420" duration="80500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441663000" />
+    <option name="totallyTimeSpent" value="443511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="473" y="23" width="1190" height="862" extended-state="0" />
+    <frame x="183" y="23" width="1190" height="862" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1879,9 +1877,10 @@
     <entry file="file://$PROJECT_DIR$/src/PascalsTriangle/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="87" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1522762561000" expanded="true" signature="1663:2769" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1889,7 +1888,7 @@
     <entry file="file://$PROJECT_DIR$/src/PascalsTriangle/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.89261746">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
           <folding />
         </state>
       </provider>
