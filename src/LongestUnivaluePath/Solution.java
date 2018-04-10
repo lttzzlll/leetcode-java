@@ -15,32 +15,31 @@ class TreeNode {
 
 public class Solution {
 
-    int visit(TreeNode root, TreeNode last) {
-        if (root == null) return 0;
-        if (last == null) {
-            if (root.left == null && root.right == null) return 0;
-            else if (root.left == null && root.right != null) {
-                if (root.val == root.right.val) return visit(root.right, root);
-                else return visit(root.right, null);
-            } else if (root.right == null && root.left != null) {
-                if (root.val == root.left.val) return visit(root.left, root);
-                else return visit(root.left, null);
-            } else {
+    int maxLen = 0;
 
-                return Math.max(visit(root.left, root), visit(root.right, root));
-            }
-        } else {
-            return -1;
-        }
+    int visit(TreeNode root) {
+        if (root == null) return 0;
+        int lh = visit(root.left);
+        int rh = visit(root.right);
+        int lmax = (root.left != null && root.left.val == root.val) ? (lh + 1) : 0;
+        int rmax = (root.right != null && root.right.val == root.val) ? (rh + 1) : 0;
+        maxLen = Math.max(maxLen, lmax + rmax);
+        return Math.max(lmax, rmax);
     }
 
-
     public int longestUnivaluePath(TreeNode root) {
-        if (root == null) return 0;
-        return visit(root, null);
+        visit(root);
+        return maxLen;
     }
 
     public static void main(String[] args) {
-
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(5);
+        root.left.left = new TreeNode(2);
+        root.left.right = new TreeNode(2);
+        root.right.right = new TreeNode(5);
+        Solution solution = new Solution();
+        System.out.println(solution.longestUnivaluePath(root));
     }
 }
