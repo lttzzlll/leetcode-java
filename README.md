@@ -118,6 +118,7 @@ leetcode with java
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) | [Solition](src/FindModeinBinarySearchTree) | O(n) | O(1) | BinaryTree, Iteration |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/description/) | [Solution](src/DetectCapital) | --- | --- | String |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) | [Solution](src/ReverseStringII) | --- | --- | String |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | src/DiameterofBinaryTree | O(n) | O(1) | Binary Tree, Iteration, Divide And Conquer |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | [Solution](src/ReverseWordsinaStringIII) | --- | --- | String |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) | [Solution](src/BinaryTreeTilt) | O(n) | O(n) | Tree, PostOrder, BackTrace |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](src/MaximumProductofThreeNumbers) | O(n) | O(1) | Iterate |

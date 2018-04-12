@@ -19,12 +19,15 @@ public class Solution {
 
     int visit(TreeNode root) {
         if (root == null) return 0;
-        int lh = visit(root.left);
-        int rh = visit(root.right);
-        int lmax = (root.left != null && root.left.val == root.val) ? (lh + 1) : 0;
-        int rmax = (root.right != null && root.right.val == root.val) ? (rh + 1) : 0;
-        maxLen = Math.max(maxLen, lmax + rmax);
-        return Math.max(lmax, rmax);
+        int leftHeight = visit(root.left);
+        int rightHeight = visit(root.right);
+        int leftMaxHeight =
+                (root.left != null && root.left.val == root.val) ? (1 + leftHeight) : 0;
+        int rightMaxHeight =
+                (root.right != null && root.right.val == root.val) ? (1 + rightHeight) : 0;
+
+        maxLen = Math.max(maxLen, leftMaxHeight + rightMaxHeight);
+        return Math.max(leftMaxHeight, rightMaxHeight);
     }
 
     public int longestUnivaluePath(TreeNode root) {
@@ -34,10 +37,10 @@ public class Solution {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);
-        root.left = new TreeNode(2);
+        root.left = new TreeNode(5);
         root.right = new TreeNode(5);
-        root.left.left = new TreeNode(2);
-        root.left.right = new TreeNode(2);
+        root.left.left = new TreeNode(5);
+        root.left.right = new TreeNode(5);
         root.right.right = new TreeNode(5);
         Solution solution = new Solution();
         System.out.println(solution.longestUnivaluePath(root));
