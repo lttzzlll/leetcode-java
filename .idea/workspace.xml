@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="" />
     <ignored path="leetcode-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3603083">
+            <state vertical-scroll-proportion="-1.034682">
               <caret line="89" column="162" selection-start-line="89" selection-start-column="162" selection-end-line="89" selection-end-column="162" />
               <folding />
             </state>
@@ -997,12 +995,12 @@
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
       <workItem from="1512137683744" duration="96062000" />
-      <workItem from="1517236214420" duration="102832000" />
+      <workItem from="1517236214420" duration="102872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465843000" />
+    <option name="totallyTimeSpent" value="465883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="331" y="23" width="1068" height="870" extended-state="0" />
@@ -1910,7 +1908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3603083">
+        <state vertical-scroll-proportion="-1.034682">
           <caret line="89" column="162" selection-start-line="89" selection-start-column="162" selection-end-line="89" selection-end-column="162" />
           <folding />
         </state>
