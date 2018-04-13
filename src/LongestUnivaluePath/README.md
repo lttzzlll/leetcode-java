@@ -46,3 +46,61 @@ class Solution {
 则是分解容易合并难.
 
 这道题就是属于分解容易合并难.
+
+
+如何理解visit函数的功能?
+
+如果去掉这一行
+```Java
+max = Math.max(max, lmax + rmax);
+```
+
+visit函数变成
+```Java
+int visit(TreeNode root) {
+    if (root == null) return 0;
+    int lh = visit(root.left);
+    int rh = visit(root.right);
+    int lmax = (root.left != null && root.left.val == root.val) ? (lh + 1) : 0;
+    int rmax = (root.right != null && root.right.val == root.val) ? (rh + 1) : 0;
+    max = Math.max(max, lmax + rmax);
+    return Math.max(lmax, rmax);
+}
+```
+
+此时,这个函数的功能就是求以root为根结点并且左右子树的值也必须和根结点相同的
+路径的长度.
+
+但是我们要求解的是以root为根结点的整棵树的最大路径长度-全局最优解,而以当前
+root结点为中心的左右子树的值和root结点一致的解是一个局部最优解,这个局部最优解
+可能是全部最优解,也可能不是全局最优解.比如,下面这种情况:
+
+```
+            5
+          4   5
+        4  4   5
+       4    4
+```
+
+以4为中心的结点才是全局最优解,以5为中心的结点不是全局最优解.所以需要通过比较
+每个局部最优解的值,才能得出全局最优解,所以才需要这一行代码:
+```Java
+max = Math.max(max, lmax + rmax);
+```
+
+但是如何理解下面这段代码呢?
+
+```Java
+public int longestUnivaluePath(TreeNode root) {
+    visit(root);
+    return max;
+}
+```
+
+虽然root根结点不一定是全局最优解,但是我们需要在root根结点才能拿到这个全局最优解.
+也就是说,产生全局最优解的结点不一定是最终拿到全局最优解的结点.通常拿到全局最优解的结点
+都是以根结点作为出发点.
+
+也许,通过剪枝可以提前拿到全局最优解,但也不一定会在产生全局最优解的结点就能立即停止函数,返回
+全局最优解.
+
