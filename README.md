@@ -86,7 +86,8 @@ leetcode with java
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/description/) | [Solution](src/TenthLine) | --- | --- | Bash |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Solution](src/RemoveLinkedListElements) | --- | --- | LinkedList |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description) | [Solution](src/ReverseLinkedList) | O(n) | O(1) | LinkedList |
-| 215 | [ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](src/InvertBinaryTree) | --- | --- | Binary Tree, Invert |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Solution](src/DeleteNodeinaLinkedList) | --- | ---  | LinkedList |
