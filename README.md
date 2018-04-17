@@ -90,6 +90,7 @@ leetcode with java
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](src/InvertBinaryTree) | --- | --- | Binary Tree, Invert |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | [Solution](src/LowestCommonAncestorofaBinarySearchTree) | O(log(n)) | O(1) | Binary Search Tree |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Solution](src/DeleteNodeinaLinkedList) | --- | ---  | LinkedList |
 | 248 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) | [Solution](src/PeekingIterator) | O(n) | O(1) | Iterator |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number |
