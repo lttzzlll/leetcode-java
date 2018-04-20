@@ -1,5 +1,7 @@
 package TwoSumIVInputisaBST;
 
+import java.util.HashSet;
+
 /**
  * Created by liutaotao on 2018/4/18.
  */
@@ -15,25 +17,18 @@ class TreeNode {
 }
 
 public class Solution {
-    /**
-     * 如何转化为一个搜索的问题?
-     * 问题的转化非常重要
-     */
 
-    boolean find(TreeNode root, int target) {
+    HashSet<Integer> set = new HashSet<>();
+
+    boolean dfs(TreeNode root, int k) {
         if (root == null) return false;
-        if (root.val < target) return find(root.right, target);
-        else if (root.val > target) return find(root.left, target);
-        else return true;
+        if (set.contains(k - root.val)) return true;
+        set.add(root.val);
+        return dfs(root.left, k) || dfs(root.right, k);
     }
 
     public boolean findTarget(TreeNode root, int k) {
-        if (root == null) return false;
-        if (root.val < k)
-            return k - root.val < root.val ? find(root.left, k - root.val) : find(root.right, k - root.val);
-        if (root.val > k)
-            return root.val - k < root.val ? find(root.left, root.val - k) : find(root.right, root.val - k);
-        return 0 < root.val ? find(root.left, 0) : find(root.right, 0);
+        return dfs(root, k);
     }
 
     public static void main(String[] args) {
