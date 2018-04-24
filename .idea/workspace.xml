@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1128d77-532b-495a-98d3-966f0c911125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PowerofFour/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PowerofFour/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PowerofThree/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PowerofThree/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NumberComplement/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NumberComplement/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode-java.iws" />
@@ -52,11 +50,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PowerofThree/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48854962">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NumberComplement/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="5" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NumberComplement/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8778626">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,31 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwoSumIVInputisaBST/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwoSumIVInputisaBST/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="0" selection-start-column="4" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -160,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MinimumDepthofBinaryTree/Solution.java" />
-        <option value="$PROJECT_DIR$/src/MinimumDepthofBinaryTree/README.md" />
         <option value="$PROJECT_DIR$/src/MaximumDepthofBinaryTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/MaximumDepthofBinaryTree/README.md" />
         <option value="$PROJECT_DIR$/src/SumofLeftLeaves/Solution.java" />
@@ -211,6 +202,8 @@
         <option value="$PROJECT_DIR$/src/PowerofFour/Solution.java" />
         <option value="$PROJECT_DIR$/src/PowerofThree/README.md" />
         <option value="$PROJECT_DIR$/src/PowerofFour/README.md" />
+        <option value="$PROJECT_DIR$/src/NumberComplement/Solution.java" />
+        <option value="$PROJECT_DIR$/src/NumberComplement/README.md" />
       </list>
     </option>
   </component>
@@ -231,7 +224,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
+    <option name="x" value="350" />
     <option name="y" value="23" />
     <option name="width" value="1068" />
     <option name="height" value="870" />
@@ -422,6 +415,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="NumberComplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="LowestCommonAncestoraBinaryTree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -488,27 +499,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tmall/tmall/tmall.iml" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liutaotao/Code/leetcode-java/src/ValidateBinarySearchTree/Solution.java" />
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
-    <configuration default="false" name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="InvertBinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="InvertBinaryTree.Solution" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetcode-java" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="false" name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -577,6 +568,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="PowerofThree.Solution" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leetcode-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="NumberComplement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="NumberComplement.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1047,19 +1058,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution (5)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution (5)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solution (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution (4)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Solution (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution (5)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -1082,15 +1093,15 @@
       <workItem from="1505551704646" duration="39812000" />
       <workItem from="1509810009106" duration="70421000" />
       <workItem from="1512137683744" duration="96062000" />
-      <workItem from="1517236214420" duration="121957000" />
+      <workItem from="1517236214420" duration="122921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484968000" />
+    <option name="totallyTimeSpent" value="485932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="23" width="1068" height="870" extended-state="0" />
+    <frame x="350" y="23" width="1068" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1534,22 +1545,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ConvertSortedArraytoBinarySearchTree/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="430" column="0" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTreeLevelOrderTraversalII/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1874,10 +1869,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="false" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1996,8 +1991,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PowerofThree/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48854962">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumberComplement/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="5" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumberComplement/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8778626">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
