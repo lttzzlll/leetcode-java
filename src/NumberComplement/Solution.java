@@ -16,16 +16,13 @@ public class Solution {
 //    }
 
     public int findComplement(int num) {
-
         int mask = (Integer.highestOneBit(num) << 1) - 1;
-        System.out.println(Integer.toBinaryString(Integer.highestOneBit(num) - 1));
-        System.out.println(Integer.toBinaryString((Integer.highestOneBit(num) << 1) - 1));
-        System.out.println(Integer.toBinaryString(mask));
         return num ^ mask;
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.findComplement(5));
+//        System.out.println(solution.findComplement(5));
+        System.out.println(Integer.highestOneBit(5));
     }
 }

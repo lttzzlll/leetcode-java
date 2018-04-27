@@ -118,6 +118,7 @@ leetcode with java
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1)| Array, mark as negative value |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/#/description) | [Solution](src/AddTwoNumbersII) | --- | --- | LinkedList |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1) | Array, Mark |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Solution](src/NumberComplement) | --- | ---  | Bit Operation |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) | [Solition](src/FindModeinBinarySearchTree) | O(n) | O(1) | BinaryTree, Iteration |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/description/) | [Solution](src/DetectCapital) | --- | --- | String |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) | [Solution](src/ReverseStringII) | --- | --- | String |
