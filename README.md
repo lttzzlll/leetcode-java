@@ -85,6 +85,7 @@ leetcode with java
 | 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/description/) | [Solution](/src/ValidPhoneNumbers) | --- | --- | Bash |
 | 194 | [Transpose File](https://leetcode.com/problems/transpose-file/description/) | [Solution](src/TransposeFile) | --- | --- | Bash |
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/description/) | [Solution](src/TenthLine) | --- | --- | Bash |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/description/) | [Solution](src/HappyNumber) | --- | --- | Recursive |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Solution](src/RemoveLinkedListElements) | --- | --- | LinkedList |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description) | [Solution](src/ReverseLinkedList) | O(n) | O(1) | LinkedList |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
