@@ -97,6 +97,7 @@ leetcode with java
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Solution](src/DeleteNodeinaLinkedList) | --- | ---  | LinkedList |
 | 248 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) | [Solution](src/PeekingIterator) | O(n) | O(1) | Iterator |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Solution](src/AddDigits) | --- | --- | number |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/description/) | [Solution](src/UglyNumber) | --- | --- | Search, Recursive |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/description/) | [Solution](/src/MissingNumber) | O(n) | O(1) | XOR |
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
