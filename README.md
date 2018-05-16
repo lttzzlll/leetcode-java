@@ -87,6 +87,7 @@ leetcode with java
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/description/) | [Solution](src/TenthLine) | --- | --- | Bash |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/description/) | [Solution](src/HappyNumber) | --- | --- | Recursive |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Solution](src/RemoveLinkedListElements) | --- | --- | LinkedList |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | [Solution](src/CountPrimes) | --- | --- | Prime Select |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description) | [Solution](src/ReverseLinkedList) | O(n) | O(1) | LinkedList |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](src/InvertBinaryTree) | --- | --- | Binary Tree, Invert |
