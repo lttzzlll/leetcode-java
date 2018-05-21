@@ -91,6 +91,7 @@ leetcode with java
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description) | [Solution](src/ReverseLinkedList) | O(n) | O(1) | LinkedList |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Solution](src/ContainsDuplicate) | --- | --- | Hash, Sort |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Solution](src/ContainsDuplicateII) | --- | --- | Hash |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](src/InvertBinaryTree) | --- | --- | Binary Tree, Invert |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)| [Solution](src/PowerofTwo) | --- | --- | binary, bit |
