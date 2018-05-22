@@ -127,6 +127,7 @@ leetcode with java
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1) | Array, Mark |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Solution](src/NumberComplement) | --- | ---  | Bit Operation |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) | [Solition](src/FindModeinBinarySearchTree) | O(n) | O(1) | BinaryTree, Iteration |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/description/) | [Solution](src/PerfectNumber) | --- | --- | Iteration |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/description/) | [Solution](src/DetectCapital) | --- | --- | String |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) | [Solution](src/ReverseStringII) | --- | --- | String |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | src/DiameterofBinaryTree | O(n) | O(1) | Binary Tree, Iteration, Divide And Conquer |
