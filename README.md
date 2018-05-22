@@ -138,3 +138,4 @@ leetcode with java
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [Solution](TwoSumIVInputisaBST) | O(n) | O(n) | Binary Search Tree, HashSet |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [Solution](src/NondecreasingArray) | --- | --- | Greedy |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) | [Solution](src/LongestUnivaluePath) | O(log(n)) | --- | Binary Tree, Iteration, Divide and Conquer |
+| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Solution](src/SelfDividingNumbers) | --- | --- | Calculate |
