@@ -23,3 +23,27 @@ class Solution {
 ```
 
 使用最基本的的符合题意的思路就过了.说明leetcode的超时判定并不十分严格.
+
+其中最重要的一个地方是提前终止的条件
+
+```Java
+if (s.length() > B.length() * 2) break;
+```
+
+因为在 s.length() >= B.length() * 2 的情况下, 如果 B not in s, 则 B not in s + A. 分类讨论.
+
+1). A.length() > B.length():
+
+A = abbc, B = bca. 则 B in A * 2 = abbcabbc > B.length() * 2.
+
+2) A.length() < B.length()
+
+A = abc, B = bcabc. 则 B in A * 3 = abcabcabc > B.length() * 2.
+
+3) A.length() = B.length()
+
+A = abc, B = bca. 则 B in A * 2 = abcabc = B.length() * 2.
+
+在, s.length() >= B.length() * 2 的情况下, 如果 B in c.则一定存在于 A * (2 or 3) 的序列中.
+
+如果 B 不在 s 中, 则无论s如何增长,都无法满足条件.
