@@ -1,9 +1,12 @@
-package CanPlaceFlowers;
+### [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)
 
-/**
- * Created by liutaotao on 2018/5/27.
- */
-public class Solution {
+
+就这个破题,弄了半天.分成三部分和一种特殊情况:
+
+开头,结尾,中间和长度为1的情况.然后针对各种情况编码.
+
+```Java
+class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n <= 0) return true;
         int len = flowerbed.length;
@@ -20,15 +23,5 @@ public class Solution {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-//        int[] nums = new int[]{1, 0, 0, 0, 0, 1};
-//        int[] nums = new int[]{0};
-//        int[] nums = new int[]{1, 0};
-        int[] nums = new int[]{0, 1, 0};
-        int n = 1;
-        Solution solution = new Solution();
-
-        System.out.println(solution.canPlaceFlowers(nums, n));
-    }
 }
+```
