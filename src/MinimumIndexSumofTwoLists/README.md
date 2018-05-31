@@ -1,11 +1,16 @@
-package MinimumIndexSumofTwoLists;
+### [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)
 
+
+又熟悉了一边Java的数据结构.真的是超级麻烦.
+
+
+代码:
+
+
+```Java
 import java.util.*;
 
-/**
- * Created by liutaotao on 2017/11/8.
- */
-public class Solution {
+class Solution {
     public String[] findRestaurant(String[] list1, String[] list2) {
         HashMap<String, Integer> map = new HashMap<>();
         for (int i = 0; i < list1.length; i++) {
@@ -38,18 +43,7 @@ public class Solution {
         }
         return res;
     }
-
-
-    public static void main(String[] args) {
-        String[] str1 = new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
-        String[] str2 = new String[]{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
-//        String[] str1 = new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
-//        String[] str2 = new String[]{"KFC", "Shogun", "Burger King"};
-        Solution solution = new Solution();
-
-        String[] res = solution.findRestaurant(str1, str2);
-        for (String item : res) {
-            System.out.println(item);
-        }
-    }
 }
+```
+
+或许还有更好的方法,但是这是最基本的方法,最常想到的思路.

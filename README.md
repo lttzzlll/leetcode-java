@@ -93,8 +93,7 @@ leetcode with java
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Solution](src/ContainsDuplicate) | --- | --- | Hash, Sort |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Solution](src/ContainsDuplicateII) | --- | --- | Hash |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](src/InvertBinaryTree) | --- | --- | Binary Tree, Invert |
-| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | [Solution]
-(src/BasicCalculatorII) | O(n) | O(n) | Stack, Recurisve, Tail Optimization |
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | [Solution](src/BasicCalculatorII) | O(n) | O(n) | Stack, Recurisve, Tail Optimization |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)| [Solution](src/PowerofTwo) | --- | --- | binary, bit |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
@@ -137,20 +136,16 @@ leetcode with java
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | src/DiameterofBinaryTree | O(n) | O(1) | Binary Tree, Iteration, Divide And Conquer |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | [Solution](src/ReverseWordsinaStringIII) | --- | --- | String |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) | [Solution](src/BinaryTreeTilt) | O(n) | O(n) | Tree, PostOrder, BackTrace |
-| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Solution]
-(src/SubtreeofAnotherTree) | --- | --- | Binary Tree, Iteration |
-| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) | [Solution]
-(src/CanPlaceFlowers) | --- | --- | --- |
-| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Solution]
-(src/MergeTwoBinaryTrees) | --- | --- | Binary Tree, Iteration |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Solution](src/SubtreeofAnotherTree) | --- | --- | Binary Tree, Iteration |
+| 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | [Solution](src/MinimumIndexSumofTwoLists) | --- | --- | Map, List |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) | [Solution](src/CanPlaceFlowers) | --- | --- | --- |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Solution](src/MergeTwoBinaryTrees) | --- | --- | Binary Tree, Iteration |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](src/MaximumProductofThreeNumbers) | O(n) | O(1) | Iterate |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | [Solution](src/SumofSquareNumbers) | --- | --- | Math |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [Solution](TwoSumIVInputisaBST) | O(n) | O(n) | Binary Search Tree, HashSet |
-| 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution]
-(src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
+| 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution](src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [Solution](src/NondecreasingArray) | --- | --- | Greedy |
-| 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) |
-[Solution](src/TrimaBinarySearchTree) | --- | --- | Binary Search Tree, Iteraion & Filter |
+| 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [Solution](src/TrimaBinarySearchTree) | --- | --- | Binary Search Tree, Iteraion & Filter |
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/) | [Solution](src/RepeatedStringMatch) | --- | --- | String |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) | [Solution](src/LongestUnivaluePath) | O(log(n)) | --- | Binary Tree, Iteration, Divide and Conquer |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Solution](src/SelfDividingNumbers) | --- | --- | Calculate |
