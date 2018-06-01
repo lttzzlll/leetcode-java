@@ -142,6 +142,7 @@ leetcode with java
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Solution](src/MergeTwoBinaryTrees) | --- | --- | Binary Tree, Iteration |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](src/MaximumProductofThreeNumbers) | O(n) | O(1) | Iterate |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | [Solution](src/SumofSquareNumbers) | --- | --- | Math |
+| 647 | | ### [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) | --- | --- | Dynamic Programming |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [Solution](TwoSumIVInputisaBST) | O(n) | O(n) | Binary Search Tree, HashSet |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution](src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [Solution](src/NondecreasingArray) | --- | --- | Greedy |
