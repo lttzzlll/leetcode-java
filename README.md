@@ -106,6 +106,7 @@ leetcode with java
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/) | [Solution](/src/IntegerToEnglishWords) | --- | --- | Segment |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [Solution](/src/FirstBadVersion) | O(log(n)) | O(1) | Binary Search |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [Solution](/src/FindtheDuplicateNumber) | O(n) | O(1) | slow-fast pointer |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [Solution](src/LongestIncreasingSubsequence) | O(n*log(n) | O(n) | Dynamic Programming |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/) | [Solution](src/RangeSumQueryImmutable) | ---  | --- | Array |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Solution](src/ReverseString) | --- | --- | String |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](src/ReverseVowelsofaString) | --- | --- | String |
