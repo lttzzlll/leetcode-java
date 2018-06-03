@@ -65,6 +65,7 @@ leetcode with java
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/) | [Solution](src/PathSumII) | O(n) | O(n) | Binary Tree, DFS |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [Solution](src/PascalsTriangle) | --- | --- | Introduce |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) | [Solution](src/PascalsTriangleII) | -- | -- | Introduce |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/description/) | [Solution](src/Triangle) | O(n*2) | O(n*2) | Dynamic Prgramming |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Solution](/src/BestTimetoBuyandSellStock) | O(n) | O(1) | Indexing |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Solution](/src/BestTimetoBuyandSellStock2) | O(n) | O(1) | Dynamic Programming |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
