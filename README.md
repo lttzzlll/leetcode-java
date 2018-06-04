@@ -149,6 +149,7 @@ leetcode with java
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution](src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [Solution](src/NondecreasingArray) | --- | --- | Greedy |
 | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [Solution](src/TrimaBinarySearchTree) | --- | --- | Binary Search Tree, Iteraion & Filter |
+| 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)| [Solution](src/NumberofLongestIncreasingSubsequence) | O(n*2) | O(n) | Dynamic Programming |
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/) | [Solution](src/RepeatedStringMatch) | --- | --- | String |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) | [Solution](src/LongestUnivaluePath) | O(log(n)) | --- | Binary Tree, Iteration, Divide and Conquer |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Solution](src/SelfDividingNumbers) | --- | --- | Calculate |
