@@ -25,6 +25,7 @@ public class Solution {
      * 并且原本的递增序列都不能用了，直接用cnt[j]来代替。
      * 我们在更新完len[i]和cnt[i]之后，要更新mx和res，如果mx等于len[i]，则把cnt[i]加到res之上；
      * 如果mx小于len[i]，则更新mx为len[i]，更新结果res为cnt[i]，
+     *
      * @param nums
      * @return
      */
@@ -37,16 +38,26 @@ public class Solution {
 
         for (int j = 0; j < N; ++j) {
             for (int i = 0; i < j; ++i) {
-                if (nums[i] < nums[j]) {
-                    if (lengths[i] >= lengths[j]) {
-                        lengths[j] = lengths[i] + 1;
-                        counts[j] = counts[i];
-                    } else if (lengths[i] + 1 == lengths[j]) {
+                if (nums[i] < nums[j]) { // 保证是单调递增序列
+                    if (lengths[i] >= lengths[j]) { // 发现更长的序列
+                        lengths[j] = lengths[i] + 1; // 替换
+                        counts[j] = counts[i]; // 覆盖
+                    } else if (lengths[i] + 1 == lengths[j]) { // 长度相同,但是有不同的走法,所以加1
                         counts[j] += counts[i];
                     }
                 }
             }
         }
+
+        for (int i : lengths) {
+            System.out.printf("%d\t", i);
+        }
+        System.out.println();
+
+        for (int i : counts) {
+            System.out.printf("%d\t", i);
+        }
+        System.out.println();
 
         int longest = 0, ans = 0;
         for (int length : lengths) {
