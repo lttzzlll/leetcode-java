@@ -34,12 +34,13 @@ public class Solution {
         if (N <= 1) return N;
         int[] lengths = new int[N]; //lengths[i] = length of longest ending in nums[i]
         int[] counts = new int[N]; //count[i] = number of longest ending in nums[i]
+//        Arrays.fill(lengths, 1);
         Arrays.fill(counts, 1);
 
-        for (int j = 0; j < N; ++j) {
+        for (int j = 1; j < N; ++j) {
             for (int i = 0; i < j; ++i) {
                 if (nums[i] < nums[j]) { // 保证是单调递增序列
-                    if (lengths[i] >= lengths[j]) { // 发现更长的序列
+                    if (lengths[i] + 1 > lengths[j]) { // 发现更长的序列
                         lengths[j] = lengths[i] + 1; // 替换
                         counts[j] = counts[i]; // 覆盖
                     } else if (lengths[i] + 1 == lengths[j]) { // 长度相同,但是有不同的走法,所以加1
@@ -75,7 +76,8 @@ public class Solution {
 //        int[] nums = new int[]{1, 3, 5, 4, 7};
 //        int[] nums = new int[]{10, 1, 3, 5, 2, 4, 1, 5, 7};
 //        int[] nums = new int[]{2, 2, 2, 2, 2};
-        int[] nums = new int[]{1, 2, 4, 3, 5, 4, 7, 2};
+//        int[] nums = new int[]{1, 2, 4, 3, 5, 4, 7, 2};
+        int[] nums = new int[]{1, 3, 6, 7, 9, 4, 10, 5, 6};
         Solution solution = new Solution();
         System.out.println(solution.findNumberOfLIS(nums));
     }
