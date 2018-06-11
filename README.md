@@ -144,6 +144,7 @@ leetcode with java
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Solution](src/MergeTwoBinaryTrees) | --- | --- | Binary Tree, Iteration |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](src/MaximumProductofThreeNumbers) | O(n) | O(1) | Iterate |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | [Solution](src/SumofSquareNumbers) | --- | --- | Math |
+| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/) | [Solution](src/MaximumAverageSubarrayI) | O(n) | O(1) | Array, Indexing and Compare |
 | 647 | | ### [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) | --- | --- | Dynamic Programming |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [Solution](TwoSumIVInputisaBST) | O(n) | O(n) | Binary Search Tree, HashSet |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution](src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
