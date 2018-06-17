@@ -155,3 +155,4 @@ leetcode with java
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/) | [Solution](src/RepeatedStringMatch) | --- | --- | String |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) | [Solution](src/LongestUnivaluePath) | O(log(n)) | --- | Binary Tree, Iteration, Divide and Conquer |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Solution](src/SelfDividingNumbers) | --- | --- | Calculate |
+| 774 | [Find Smallest Letter Greater Than Target](src/https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [Solution](src/FindSmallestLetterGreaterThanTarget | O(n) | O(n) | Binary, Search |
