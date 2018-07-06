@@ -51,6 +51,7 @@ leetcode with java
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Solution](src/ClimbingStairs) | O(n) | O(1) | Deep Search, Fibnacci |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) | [Solution](/src/EditDistance) | O(n * m) | O(n * m) | Dynamic Programming |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description) | [Solution](src/RemoveDuplicatesfromSortedList) | -- | -- | linkedList |
+| 86 | ### [Partition List](https://leetcode.com/problems/partition-list/description/) | [Solution](src/https://leetcode.com/problems/partition-list/description/) | O(n) | O(n) | LinkedList |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Solution](/src/MergeSortedArray) | O(m+n) | O(1) | Array, Iteration |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | [Solution](src/ReverseLinkedListII) | O(n) | O(n) | LinkedList |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Solution](src/BinaryTreeInorderTraversal) | O(n) | O(n) | Binary Tree Inorder Visit |
