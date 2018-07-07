@@ -101,6 +101,7 @@ leetcode with java
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | [Solution](src/BasicCalculatorII) | O(n) | O(n) | Stack, Recurisve, Tail Optimization |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/description/)| [Solution](src/PowerofTwo) | --- | --- | binary, bit |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) | [Solution](src/ImplementQueueusingStacks) | O(n) | O(n) | Stack and Queue |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/discuss) | [Solution](src/PalindromeLinkedList)| O(n) | O(1) | LinkedList |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | [Solution](src/LowestCommonAncestorofaBinarySearchTree) | O(log(n)) | O(1) | Binary Search Tree |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Solution](src/DeleteNodeinaLinkedList) | --- | ---  | LinkedList |
