@@ -96,6 +96,7 @@ leetcode with java
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(1) | QuickSort, Divide And Conquer |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Solution](src/ContainsDuplicate) | --- | --- | Hash, Sort |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Solution](src/ContainsDuplicateII) | --- | --- | Hash |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/) | [Solution](ImplementStackusingQueues) | O(n) | O(n) | LinkedList, Stack    |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](src/InvertBinaryTree) | --- | --- | Binary Tree, Invert |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | [Solution](src/BasicCalculatorII) | O(n) | O(n) | Stack, Recurisve, Tail Optimization |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) | [Solution](/src/MajorityElement2) | O(n) | O(1) | Count, Add, Sub |
