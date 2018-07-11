@@ -14,20 +14,20 @@ class MedianFinder:
         :type num: int
         :rtype: void
         """
-        if len(self.lo) == len(self.hi):
-            heapq.heappush(self.lo, -1 * num)
-            if self.hi and self.lo[0] * -1 > self.hi[0]:
-                heapq.heappush(self.hi, heapq.heappop(self.lo) * -1)
-        else:
-            heapq.heappush(self.hi, num)
+        heapq.heappush(self.lo, num * -1)
+        heapq.heappush(self.hi, heapq.heappop(self.lo) * -1)
+
+        if len(self.lo) < len(self.hi):
+            heapq.heappush(self.lo, heapq.heappop(self.hi) * -1)
+
 
     def findMedian(self):
         """
         :rtype: float
         """
         if len(self.lo) > len(self.hi):
-            return self.lo[0]
-        return (self.lo[0] + self.hi[0]) / 2.0
+            return self.lo[0] * -1
+        return (self.lo[0] * -1 + self.hi[0]) / 2.0
 
 if __name__ == '__main__':
     mf = MedianFinder()

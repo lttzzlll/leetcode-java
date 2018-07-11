@@ -87,3 +87,53 @@ class MedianFinder:
 时间复杂度为O(log(n)),找到合适的位置后,移动元素的时间复杂度为O(n), 所以总的时间复杂度为
 O(log(n)) + O(n) = O(n).
 
+
+一个使用O(log(n))时间复杂度的算法。
+
+```Python
+import heapq
+
+class MedianFinder:
+
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.lo = []
+        self.hi = []
+
+    def addNum(self, num):
+        """
+        :type num: int
+        :rtype: void
+        """
+        heapq.heappush(self.lo, num * -1)
+        heapq.heappush(self.hi, heapq.heappop(self.lo) * -1)
+
+        if len(self.lo) < len(self.hi):
+            heapq.heappush(self.lo, heapq.heappop(self.hi) * -1)
+
+
+    def findMedian(self):
+        """
+        :rtype: float
+        """
+        if len(self.lo) > len(self.hi):
+            return self.lo[0] * -1
+        return (self.lo[0] * -1 + self.hi[0]) / 2.0
+
+if __name__ == '__main__':
+    mf = MedianFinder()
+    mf.addNum(1)
+    mf.addNum(2)
+    print(mf.findMedian())
+    print(mf.lo, mf.hi)
+    mf.addNum(3)
+    print(mf.findMedian())
+    print(mf.lo, mf.hi)
+
+```
+
+这个算法需要用到两个优先队列, 一个是最大堆, 另一个是最小堆, 两个堆的堆顶元素就是中位数所在的地方。
+这个方法相比排序, 查询的时间复杂度都是O(1), 但是插入的时间复杂度变成了O(log(n)),因为所操作的
+数据结构是二叉堆, 每次插入元素调整堆的时间复杂度为O(log(n)), 所以算法的总体时间复杂度为O(log(n))。
