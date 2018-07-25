@@ -40,6 +40,7 @@ leetcode with java
 | 46 | [Permutations](https://leetcode.com/problems/permutations/description/) | [Solution](src/Permutations) | O(n!), n * O(n-1), O(1) = 1 | O(1) | Back Tracing, Permutation |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [Solution](src/PermutationsII) | O(n!) | O(n) | Permutation |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Solution](src/RotateImage) | O(n^2) | O(1) | Matrix |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/description/) | [Solution](src/NQueens) | O(n!) | O(n) | backtracing |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Solution](src/MaximumSubarray) | O(n) | O(n) | Dynamic Programming |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Solution](src/LengthofLastWord) | --- | --- | String |
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
