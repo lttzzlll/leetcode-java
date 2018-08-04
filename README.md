@@ -139,6 +139,7 @@ leetcode with java
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | [Solution](/src/FindAllNumbersDisappearedinanArray) | O(n) | O(1) | Array, Mark |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [Solution](src/SortCharactersByFrequency) | --- | --- | HashMap, Count |
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/) | [Solution](src/RepeatedSubstringPattern) | --- | --- | String Split |
+| 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/) | [Solution](src/MatchstickstoSquare) | O(n!) | O(n) | DFS |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Solution](src/NumberComplement) | --- | ---  | Bit Operation |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) | [Solition](src/FindModeinBinarySearchTree) | O(n) | O(1) | BinaryTree, Iteration |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/description/) | [Solution](src/PerfectNumber) | --- | --- | Iteration |
