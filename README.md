@@ -145,7 +145,7 @@ leetcode with java
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/description/) | [Solution](src/PerfectNumber) | --- | --- | Iteration |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/description/) | [Solution](src/DetectCapital) | --- | --- | String |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/) | [Solution](src/ReverseStringII) | --- | --- | String |
-| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | src/DiameterofBinaryTree | O(n) | O(1) | Binary Tree, Iteration, Divide And Conquer |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | [Solution](src/DiameterofBinaryTree) | O(n) | O(1) | Binary Tree, Iteration, Divide And Conquer |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) | [Solution](src/ReverseWordsinaStringIII) | --- | --- | String |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) | [Solution](src/BinaryTreeTilt) | O(n) | O(n) | Tree, PostOrder, BackTrace |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Solution](src/SubtreeofAnotherTree) | --- | --- | Binary Tree, Iteration |
@@ -156,7 +156,7 @@ leetcode with java
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | [Solution](src/SumofSquareNumbers) | --- | --- | Math |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/) | [Solution](src/MaximumAverageSubarrayI) | O(n) | O(1) | Array, Indexing and Compare |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/) | [Solution](src/SetMismatch) | O(n) | O(n) | HashMap |
-| 647 | | ### [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) | --- | --- | Dynamic Programming |
+| 647 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) | [Solution](src/LongestContinuousIncreasingSubsequence) |--- | --- | Dynamic Programming |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [Solution](TwoSumIVInputisaBST) | O(n) | O(n) | Binary Search Tree, HashSet |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution](src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [Solution](src/NondecreasingArray) | --- | --- | Greedy |
@@ -165,4 +165,4 @@ leetcode with java
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/) | [Solution](src/RepeatedStringMatch) | --- | --- | String |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) | [Solution](src/LongestUnivaluePath) | O(log(n)) | --- | Binary Tree, Iteration, Divide and Conquer |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Solution](src/SelfDividingNumbers) | --- | --- | Calculate |
-| 774 | [Find Smallest Letter Greater Than Target](src/https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [Solution](src/FindSmallestLetterGreaterThanTarget | O(n) | O(n) | Binary, Search |
+| 774 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [Solution](src/FindSmallestLetterGreaterThanTarget) | O(n) | O(n) | Binary, Search |
