@@ -50,3 +50,6 @@ fabric.properties
 .idea/workspace.xml
 *.out
 *.exe
+
+out/
+out/*
