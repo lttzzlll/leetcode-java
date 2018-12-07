@@ -53,3 +53,5 @@ fabric.properties
 
 out/
 out/*
+
+.vscode/
