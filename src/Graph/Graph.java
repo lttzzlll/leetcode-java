@@ -1,9 +1,6 @@
 package Graph;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 /**
  * in directional graph
@@ -28,7 +25,7 @@ public class Graph {
 
     /**
      * add edge to graph
-     * 
+     *
      * @param s edge s
      * @param t edge t
      */
@@ -39,7 +36,7 @@ public class Graph {
 
     /**
      * iterate graph from vertex s to t
-     * 
+     *
      * @param s vertex s
      * @param t vertex t
      */
@@ -73,7 +70,7 @@ public class Graph {
 
     /**
      * print the iterate path from vertex s to vertex t
-     * 
+     *
      * @param prev containing iterate path
      * @param s    vertex s
      * @param t    vertex t
@@ -89,7 +86,7 @@ public class Graph {
 
     /**
      * iterate graph from vertex s to vertex t using Deep Frist Search
-     * 
+     *
      * @param s vertex s
      * @param t vertex t
      */
@@ -105,7 +102,7 @@ public class Graph {
 
     /**
      * iterate graph from vertex w to vertex t using Deep First Search
-     * 
+     *
      * @param w       vertex w
      * @param t       vertex t
      * @param visited mark if visited
@@ -145,22 +142,22 @@ public class Graph {
 
     /**
      * search wechat user s K-friends using Breadth First Search
-     * 
+     *
      * @param s wechat user s
-     * @param t K friends
+     * @param k K friends
      * @return all matched friends
      */
-    public List<Integer> WechatBfs(int s, int k) {
+    public Set<Integer> WechatBfs(int s, int k) {
         // using set to keep each friends are unique
         Set<Integer> friends = new HashSet<>();
         Queue<UserCount> queue = new LinkedList<>();
         queue.add(new UserCount(s, 0));
         while (!queue.isEmpty()) {
             UserCount u = queue.poll();
-            if (i.level == k)
+            if (u.level == k)
                 continue;
-            for (int i = 0; i < this.adj[w].size(); i++) {
-                int q = this.adj[w].get(i);
+            for (int i = 0; i < this.adj[u.node].size(); i++) {
+                int q = this.adj[u.node].get(i);
                 if (friends.contains(q))
                     continue;
                 queue.add(new UserCount(q, u.level + 1));
@@ -171,19 +168,21 @@ public class Graph {
 
     /**
      * search wechat user s K-friends using Deep First Search
-     * 
+     *
      * @param s wechat user s
      * @param k k friends
      * @return all matched friends
      */
-    public List<Integer> WechatDfs(int s, int k) {
+    public Set<Integer> WechatDfs(int s, int k) {
         Set<Integer> friends = new HashSet<>();
-        level = 0;
+        int level = 0;
         recurWechatDfs(s, level, k, friends);
+        return friends;
     }
 
     /**
      * deep search for wechat user k-friends implementation
+     *
      * @param s
      * @param l
      * @param k
@@ -199,5 +198,4 @@ public class Graph {
             recurWechatDfs(q, l + 1, k, friends);
         }
     }
-
 }

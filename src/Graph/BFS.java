@@ -9,7 +9,7 @@ public class BFS {
      */
     public void bfs(int s, int t) {
         if (s == t) return;
-        boolean[] visited = new boolean[];
+        boolean[] visited = new boolean[10];
     }
 
     public static void main(String[] args) {
