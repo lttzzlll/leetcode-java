@@ -46,6 +46,7 @@ leetcode with java
 | 60 | [Pow](https://leetcode.com/problems/powx-n/description/) | [Solution](/src/Pow) | --- | --- | Math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description) | [Solution](src/RotateList)| --- | --- | LinkedList |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](src/UniquePaths) | O(n^2) | O(n^2) | [Dynamic Programming] |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Solution](src/UniquePathsII]) | O(n^2) | O(n^2) | Dynamic Programming |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Solution](src/MinimumPathSum) | O(n^2) | O(n^2) | Dynamic Programming, Bottom-Up, Up-Bottom, Recusive, Memo-Table |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [Solution](src/PlusOne) | --- | --- | Array |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/#/description) | [Solution](src/AddBinary) | --- | --- | Int->String |
