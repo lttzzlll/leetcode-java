@@ -94,6 +94,7 @@ leetcode with java
 | 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/description/) | [Solution](/src/ValidPhoneNumbers) | --- | --- | Bash |
 | 194 | [Transpose File](https://leetcode.com/problems/transpose-file/description/) | [Solution](src/TransposeFile) | --- | --- | Bash |
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/description/) | [Solution](src/TenthLine) | --- | --- | Bash |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Solution](src/HouseRobber) | O(n) | O(n) | Dynamic Programming |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/description/) | [Solution](src/HappyNumber) | --- | --- | Recursive |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Solution](src/RemoveLinkedListElements) | --- | --- | LinkedList |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | [Solution](src/CountPrimes) | --- | --- | Prime Select |
