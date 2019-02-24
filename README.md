@@ -60,6 +60,7 @@ leetcode with java
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/description/) | [Solution](src/SubsetsII) | O(2^n) | O(2^n) | Combinations |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | [Solution](src/ReverseLinkedListII) | O(n) | O(n) | LinkedList |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Solution](src/BinaryTreeInorderTraversal) | O(n) | O(n) | Binary Tree Inorder Visit |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Solution](src/UniqueBinarySearchTrees) | O(n) | O(n) | Dynamic Programming, Catalan Number O(1) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | [Solution](src/ValidateBinarySearchTree) | --- | --- | BinaryTree Iteration, Integer |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | [Solution](src/SameTree) | --- | --- | Binary Tree |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)| [Solution](src/SymmetricTree) | O(n) | O(1) | Binary Tree, Binary Tree Defination |
