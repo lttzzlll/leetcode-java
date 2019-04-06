@@ -176,3 +176,4 @@ leetcode with java
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Solution](src/Largest NumberAtLeastTwiceofOthers) | --- | --- | Array |
 | 774 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [Solution](src/FindSmallestLetterGreaterThanTarget) | O(n) | O(n) | Binary, Search |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Solution](src/SortArrayByParity) | --- | --- | Array Iterate, Swap |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Solution](src/MinimumCostForTickets) | O(n) | O(n) | Dynamic Programming |
