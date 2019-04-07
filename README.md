@@ -135,6 +135,7 @@ leetcode with java
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [Solution](/src/ValidPerfectSquare)| --- | --- | Math |
 | 372 | [Super Pow](https://leetcode.com/problems/super-pow/discuss/) | [Solution](/src/SuperPow) | --- | --- | Math |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) | [Solution](/src/GuessNumberHigherorLower) | O(log(n)) | O(1) | Binary Search |
+| 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [Solution](src/GuessNumberHigherorLowerII) | O(n^3) | O(n^2) | Dynamic Programming |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | [Solution](src/FirstUniqueCharacterinaString) | --- | --- | HashMap, Iteration, Count |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/) | [Solution](src/FindtheDifference) | --- | --- | Char, Bit |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/description/)| [Solution](/src/BinaryWatch) | --- | --- | Code |
