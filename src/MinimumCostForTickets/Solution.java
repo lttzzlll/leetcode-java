@@ -6,6 +6,7 @@ public class Solution {
         for (int i = 0; i < days.length; i++) {
             memo[i][0] = costs[0];
         }
+        
         return -1;
     }
 

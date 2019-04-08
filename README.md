@@ -170,6 +170,7 @@ leetcode with java
 | 647 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/) | [Solution](src/LongestContinuousIncreasingSubsequence) |--- | --- | Dynamic Programming |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [Solution](TwoSumIVInputisaBST) | O(n) | O(n) | Binary Search Tree, HashSet |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) | [Solution](src/PrintBinaryTree) | --- | --- | Binary Tree, Iteration |
+| 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Solution](src/FindKClosestElements) | O(log(n)) | O(1) | Binary Search |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [Solution](src/NondecreasingArray) | --- | --- | Greedy |
 | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [Solution](src/TrimaBinarySearchTree) | --- | --- | Binary Search Tree, Iteraion & Filter |
 | 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)| [Solution](src/NumberofLongestIncreasingSubsequence) | O(n*2) | O(n) | Dynamic Programming |
