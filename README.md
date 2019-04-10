@@ -79,6 +79,7 @@ leetcode with java
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Solution](/src/BestTimetoBuyandSellStock2) | O(n) | O(1) | Dynamic Programming |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [Solution](/src/SingleNumber) | O(n) | O(1) | XOR |
 | 138 | [CopyListwithRandomPointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | [Solution](src/CopyListwithRandomPointer) | O(n) | O(n) | Mapping, LinkedList |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Solution](src/WordBreak) | O(n) | O(n) | Dynamic Programming |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [Solution](src/LinkedListCycle) | --- | ---  | Linked List Cycle |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/discuss/) | [Solution](/src/LinkedListCycle2) | O(n) | O(1) | Math, LinkedList |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [Solution](src/BinaryTreePreorderTraversal) | O(n) | O(n) | Binary Tree Preorder Vist |
