@@ -128,6 +128,7 @@ leetcode with java
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](src/CoinChange
 ) | O(n*m) | O(n) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Solution](src/HouseRobberIII) | O(n) | O(n) | Dynamic Programming |
+| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | [Solution](src/IntegerBreak) | O(n) | O(n) | Dynamic Programming |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Solution](src/ReverseString) | --- | --- | String |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](src/ReverseVowelsofaString) | --- | --- | String |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [Solution](/src/KthLargestElementinanArray) | O(n) | O(n) | Map |
