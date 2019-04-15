@@ -66,7 +66,7 @@ for i in range():
 另外, s, p的顺序其实并不重要, 下面就是把s, p反过来放置的代码, 依然正确.
 
 
-```
+```Python
 class Solution:
     def isMatch(self, s, p):
         s_len, p_len = len(s), len(p)
@@ -86,3 +86,5 @@ class Solution:
         return dp[s_len][p_len]
 
 ```
+
+通过代码理解其所表达的意思. 
