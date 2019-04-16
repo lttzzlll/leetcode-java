@@ -184,3 +184,4 @@ leetcode with java
 | 774 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [Solution](src/FindSmallestLetterGreaterThanTarget) | O(n) | O(n) | Binary, Search |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Solution](src/SortArrayByParity) | --- | --- | Array Iterate, Swap |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Solution](src/MinimumCostForTickets) | O(n) | O(n) | Dynamic Programming |
+| 1025 | [Divisor Game](src/DivisorGame) | [Solution](DivisorGame) | O(n^2) | O(n) | Dynamic Programming |
