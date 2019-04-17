@@ -185,3 +185,4 @@ leetcode with java
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Solution](src/SortArrayByParity) | --- | --- | Array Iterate, Swap |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Solution](src/MinimumCostForTickets) | O(n) | O(n) | Dynamic Programming |
 | 1025 | [Divisor Game](src/DivisorGame) | [Solution](DivisorGame) | O(n^2) | O(n) | Dynamic Programming |
+| 1027 | [Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence/) | [Solution](src/LongestArithmeticSequence) | O(n) | O(n) | Dynamic Programming |
